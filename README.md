@@ -2,7 +2,7 @@
 
 A relaxing anime tile-swapping puzzle game made with **Godot and GDScript**, with **80 artworks**, **7 collections**, and a **dating sim in development**.
 
-**[Download the Android game on itch.io](https://flavw.itch.io/fragments-of-dawn)** · [Source code](https://github.com/flavw/fragments-of-dawn)
+**[Download the Android game on itch.io](https://flavw.itch.io/fragments-of-dawn)**
 
 Join Dawn on a journey to recover magical fragments scattered across different worlds. Peaceful gardens, sunlit shores, enchanted castles, and moonlit evenings bring new discoveries and new friendships.
 
