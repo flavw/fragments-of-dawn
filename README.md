@@ -6,7 +6,7 @@ A relaxing anime tile-swapping puzzle game made with **Godot and GDScript**, wit
 
 Join Dawn on a journey to recover magical fragments scattered across different worlds. Peaceful gardens, sunlit shores, enchanted castles, and moonlit evenings bring new discoveries and new friendships.
 
-<table><tr><td><img src="docs/screenshots/01-home.jpg" alt="Fragments of Dawn home screen" width="270"></td><td><img src="docs/screenshots/03-puzzle-in-progress.jpg" alt="Emerald Stillness puzzle in progress" width="270"></td></tr></table>
+<table><tr><img src="docs/screenshots/03-puzzle-in-progress.jpg" alt="Emerald Stillness puzzle in progress" width="270"></td></tr></table>
 
 ## Play
 
