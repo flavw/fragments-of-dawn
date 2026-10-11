@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="160" viewBox="0 0 480 160">
+ <defs><linearGradient id="glass" x2=".8" y2="1"><stop stop-color="#55505b"/><stop offset=".45" stop-color="#30323e"/><stop offset=".65" stop-color="#454350"/><stop offset="1" stop-color="#222633"/></linearGradient><linearGradient id="gold" x2=".7" y2="1"><stop stop-color="#fff3ce"/><stop offset=".4" stop-color="#bb945e"/><stop offset=".65" stop-color="#ffe0a0"/><stop offset="1" stop-color="#9e7037"/></linearGradient></defs>
+ <rect x="5" y="5" width="470" height="150" rx="39" fill="url(#glass)" stroke="url(#gold)" stroke-width="5"/>
+ <rect x="13" y="13" width="454" height="134" rx="32" fill="none" stroke="#e9c78f" stroke-width="2"/>
+ <g fill="none" stroke="url(#gold)" stroke-width="3">
+  <path id="curl" d="M10 65Q60 60 65 10M18 43Q18 17 39 21T35 43Q23 40 29 30M43 18Q68 31 52 45"/>
+  <use href="#curl" transform="translate(480 0) scale(-1 1)"/><use href="#curl" transform="translate(0 160) scale(1 -1)"/><use href="#curl" transform="translate(480 160) scale(-1 -1)"/>
+ </g>
+</svg>

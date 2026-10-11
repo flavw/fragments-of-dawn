@@ -1,0 +1,16 @@
+.godot/
+/build/
+/work/
+/export_templates/
+/android/build/
+*.apk
+*.aab
+*.idsig
+*.jks
+*.keystore
+export_credentials.cfg
+progress.json
+progress.json.bak
+*.tmp
+.DS_Store
+Thumbs.db

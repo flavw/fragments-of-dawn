@@ -1,0 +1,402 @@
+{
+  "05_Sporting_Moments/11_Emerald_Rally.webp": {
+	"en": "Emerald Rally",
+	"pt": "Rali Esmeralda",
+	"es": "Intercambio Esmeralda"
+  },
+  "05_Sporting_Moments/12_Rosewater_Paddle.webp": {
+	"en": "Rosewater Paddle",
+	"pt": "Remada de Rosas",
+	"es": "Remada de Rosas"
+  },
+  "06_Halloween_Reverie/11_Emerald_Oracle.webp": {
+	"en": "Emerald Oracle",
+	"pt": "Oráculo Esmeralda",
+	"es": "Oráculo Esmeralda"
+  },
+  "06_Halloween_Reverie/12_Rosewater_Fairy.webp": {
+	"en": "Rosewater Fairy",
+	"pt": "Fada das Rosas",
+	"es": "Hada de las Rosas"
+  },
+  "01_Quiet_Moments/04_Emerald_Stillness.webp": {
+	"en": "Emerald Stillness",
+	"pt": "Serenidade Esmeralda",
+	"es": "Serenidad Esmeralda"
+  },
+  "01_Quiet_Moments/12_Rosewater_Reverie.webp": {
+	"en": "Rosewater Reverie",
+	"pt": "Devaneio de Rosas",
+	"es": "Ensueño de Rosas"
+  },
+  "03_High_Fantasy/09_The_Celestial_Alchemist.webp": {
+	"en": "The Celestial Alchemist",
+	"pt": "A Alquimista Celestial",
+	"es": "La Alquimista Celestial"
+  },
+  "03_High_Fantasy/10_The_Sapphire_Sentinel.webp": {
+	"en": "The Sapphire Sentinel",
+	"pt": "A Sentinela Safira",
+	"es": "La Centinela Zafiro"
+  },
+  "03_High_Fantasy/11_The_Verdant_Enchantress.webp": {
+	"en": "The Verdant Enchantress",
+	"pt": "A Encantadora Esmeralda",
+	"es": "La Hechicera Esmeralda"
+  },
+  "01_Quiet_Moments/01_Lavender_Garden.webp": {
+	"en": "Lavender Garden",
+	"pt": "Jardim de Lavanda",
+	"es": "Jardín de Lavanda"
+  },
+  "01_Quiet_Moments/02_Moonlight_Serenade.webp": {
+	"en": "Moonlight Serenade",
+	"pt": "Serenata ao Luar",
+	"es": "Serenata a la Luz de la Luna"
+  },
+  "01_Quiet_Moments/03_Seaside_Watercolors.webp": {
+	"en": "Seaside Watercolors",
+	"pt": "Aquarelas do Mar",
+	"es": "Acuarelas del Mar"
+  },
+  "01_Quiet_Moments/11_Garden_of_Dawn.webp": {
+	"en": "Garden of Dawn",
+	"pt": "Jardim da Aurora",
+	"es": "Jardín del Alba"
+  },
+  "01_Quiet_Moments/05_Ember in Bloom.webp": {
+	"en": "Ember in Bloom",
+	"pt": "Chama em Flor",
+	"es": "Brasa en Flor"
+  },
+  "01_Quiet_Moments/06_Honeyed Afternoon.webp": {
+	"en": "Honeyed Afternoon",
+	"pt": "Doce Entardecer",
+	"es": "Dulce Tarde"
+  },
+  "01_Quiet_Moments/07_Velvet Twilight.webp": {
+	"en": "Velvet Twilight",
+	"pt": "Crepúsculo de Veludo",
+	"es": "Crepúsculo de Terciopelo"
+  },
+  "01_Quiet_Moments/08_Marigold Reverie.webp": {
+	"en": "Marigold Reverie",
+	"pt": "Devaneio entre Flores",
+	"es": "Ensueño de Caléndulas"
+  },
+  "01_Quiet_Moments/09_Jasmine Afterglow.webp": {
+	"en": "Jasmine Afterglow",
+	"pt": "Jasmim ao Entardecer",
+	"es": "Jazmín al Atardecer"
+  },
+  "01_Quiet_Moments/10_Sakura Daydream.webp": {
+	"en": "Sakura Daydream",
+	"pt": "Sonho de Cerejeiras",
+	"es": "Sueño de Cerezos"
+  },
+  "02_Golden_Tides/04_Emerald_Cove.webp": {
+	"en": "Emerald Cove",
+	"pt": "Enseada Esmeralda",
+	"es": "Ensenada Esmeralda"
+  },
+  "02_Golden_Tides/12_Rosewater_Tide.webp": {
+	"en": "Rosewater Tide",
+	"pt": "Maré de Rosas",
+	"es": "Marea de Rosas"
+  },
+  "02_Golden_Tides/01_Lavender Shore.webp": {
+	"en": "Lavender Shore",
+	"pt": "Costa de Lavanda",
+	"es": "Costa de Lavanda"
+  },
+  "02_Golden_Tides/02_Moonlit Tide.webp": {
+	"en": "Moonlit Tide",
+	"pt": "Maré ao Luar",
+	"es": "Marea Lunar"
+  },
+  "02_Golden_Tides/03_Azure Sketches.webp": {
+	"en": "Azure Sketches",
+	"pt": "Esboços do Mar",
+	"es": "Bocetos del Mar"
+  },
+  "02_Golden_Tides/09_Dawn by the Sea.webp": {
+	"en": "Dawn by the Sea",
+	"pt": "Aurora à Beira-Mar",
+	"es": "Alba junto al Mar"
+  },
+  "02_Golden_Tides/05_Ember Coast.webp": {
+	"en": "Ember Coast",
+	"pt": "Costa em Brasa",
+	"es": "Costa de Brasas"
+  },
+  "02_Golden_Tides/06_Honeyed Waves.webp": {
+	"en": "Honeyed Waves",
+	"pt": "Ondas Douradas",
+	"es": "Olas Doradas"
+  },
+  "02_Golden_Tides/07_Velvet Horizon.webp": {
+	"en": "Velvet Horizon",
+	"pt": "Horizonte de Veludo",
+	"es": "Horizonte de Terciopelo"
+  },
+  "02_Golden_Tides/08_Marigold Bay.webp": {
+	"en": "Marigold Bay",
+	"pt": "Baía das Flores",
+	"es": "Bahía de Caléndulas"
+  },
+  "02_Golden_Tides/11_Jasmine Breeze.webp": {
+	"en": "Jasmine Breeze",
+	"pt": "Brisa de Jasmim",
+	"es": "Brisa de Jazmín"
+  },
+  "02_Golden_Tides/10_Sakura Surf.webp": {
+	"en": "Sakura Surf",
+	"pt": "Ondas de Cerejeiras",
+	"es": "Oleaje de Cerezos"
+  },
+  "03_High_Fantasy/01_Golden_Paladin.webp": {
+	"en": "Golden Paladin",
+	"pt": "Paladina Dourada",
+	"es": "Paladina Dorada"
+  },
+  "03_High_Fantasy/02_Arcane_Librarian.webp": {
+	"en": "Arcane Librarian",
+	"pt": "Bibliotecária Arcana",
+	"es": "Bibliotecaria Arcana"
+  },
+  "03_High_Fantasy/07_Sad_Knight.png": {
+	"en": "The Melancholy Knight",
+	"pt": "A Cavaleira Melancólica",
+	"es": "La Caballera Melancólica"
+  },
+  "03_High_Fantasy/05_Happy_Wizard.webp": {
+	"en": "The Radiant Wizard",
+	"pt": "A Maga Radiante",
+	"es": "La Maga Radiante"
+  },
+  "03_High_Fantasy/04_Emerald_Archer.webp": {
+	"en": "The Emerald Archer",
+	"pt": "A Arqueira Esmeralda",
+	"es": "La Arquera Esmeralda"
+  },
+  "03_High_Fantasy/12_Verdant_Berserker.webp": {
+	"en": "Verdant Berserker",
+	"pt": "Berserker Verdejante",
+	"es": "Berserker del Bosque"
+  },
+  "03_High_Fantasy/08_Seraphic_Cleric.webp": {
+	"en": "The Seraphic Cleric",
+	"pt": "A Clériga Seráfica",
+	"es": "La Clériga Seráfica"
+  },
+  "05_Sporting_Moments/01_Violet_Volley.webp": {
+	"en": "Violet Volley",
+	"pt": "Vôlei Violeta",
+	"es": "Voleibol Violeta"
+  },
+  "05_Sporting_Moments/02_Dawn_Stretch.webp": {
+	"en": "Dawn Stretch",
+	"pt": "Alongamento ao Amanhecer",
+	"es": "Estiramiento al Amanecer"
+  },
+  "05_Sporting_Moments/04_Sunset_Serve.webp": {
+	"en": "Sunset Serve",
+	"pt": "Saque ao Pôr do Sol",
+	"es": "Saque al Atardecer"
+  },
+  "05_Sporting_Moments/03_Crystal_Archery.webp": {
+	"en": "Crystal Archery",
+	"pt": "Arco de Cristal",
+	"es": "Arquería de Cristal"
+  },
+  "05_Sporting_Moments/07_Ember_Sprint.webp": {
+	"en": "Ember Sprint",
+	"pt": "Corrida Incandescente",
+	"es": "Carrera Incandescente"
+  },
+  "05_Sporting_Moments/06_Honeyed_Swing.webp": {
+	"en": "Honeyed Swing",
+	"pt": "Tacada Dourada",
+	"es": "Golpe Dorado"
+  },
+  "05_Sporting_Moments/05_Velvet_Fencing.webp": {
+	"en": "Velvet Fencing",
+	"pt": "Esgrima de Veludo",
+	"es": "Esgrima de Terciopelo"
+  },
+  "05_Sporting_Moments/08_Marigold_Ribbon.webp": {
+	"en": "Marigold Ribbon",
+	"pt": "Fita de Calêndula",
+	"es": "Cinta de Caléndula"
+  },
+  "05_Sporting_Moments/09_Jasmine_Row.webp": {
+	"en": "Jasmine Row",
+	"pt": "Remada de Jasmim",
+	"es": "Remada de Jazmín"
+  },
+  "05_Sporting_Moments/10_Sakura_Skates.webp": {
+	"en": "Sakura Skates",
+	"pt": "Patins de Sakura",
+	"es": "Patines de Cerezo"
+  },
+  "06_Halloween_Reverie/01_Lavender_Spell.webp": {
+	"en": "Lavender Spell",
+	"pt": "Feitiço de Lavanda",
+	"es": "Hechizo de Lavanda"
+  },
+  "06_Halloween_Reverie/02_Moonlit_Enchantment.webp": {
+	"en": "Moonlit Enchantment",
+	"pt": "Encanto ao Luar",
+	"es": "Encanto Lunar"
+  },
+  "06_Halloween_Reverie/03_Phantom_Harbor.webp": {
+	"en": "Phantom Harbor",
+	"pt": "Porto Fantasma",
+	"es": "Puerto Fantasma"
+  },
+  "06_Halloween_Reverie/04_Crystal_Haunting.webp": {
+	"en": "Crystal Haunting",
+	"pt": "Assombro de Cristal",
+	"es": "Misterio de Cristal"
+  },
+  "06_Halloween_Reverie/06_Ember_Alchemy.webp": {
+	"en": "Ember Alchemy",
+	"pt": "Alquimia de Brasas",
+	"es": "Alquimia de Brasas"
+  },
+  "06_Halloween_Reverie/05_Honeyed_Hex.webp": {
+	"en": "Honeyed Hex",
+	"pt": "Doce Feitiço",
+	"es": "Dulce Hechizo"
+  },
+  "06_Halloween_Reverie/07_Velvet_Vampire.webp": {
+	"en": "Velvet Vampire",
+	"pt": "Vampira de Veludo",
+	"es": "Vampira de Terciopelo"
+  },
+  "06_Halloween_Reverie/08_Marigold_Masquerade.webp": {
+	"en": "Marigold Masquerade",
+	"pt": "Baile de Malmequeres",
+	"es": "Baile de Caléndulas"
+  },
+  "06_Halloween_Reverie/09_Jasmine_Familiar.webp": {
+	"en": "Jasmine Familiar",
+	"pt": "Familiar de Jasmim",
+	"es": "Familiar de Jazmín"
+  },
+  "06_Halloween_Reverie/10_Sakura_Spirit.webp": {
+	"en": "Sakura Spirit",
+	"pt": "Espírito de Sakura",
+	"es": "Espíritu de Cerezo"
+  },
+  "04_Sweet_Encounters/01_Melon_Spark.webp": {
+	"en": "Melon Spark",
+	"pt": "Brilho de Melancia",
+	"es": "Destello de Sandía"
+  },
+  "04_Sweet_Encounters/02_Strawberry_Bliss.webp": {
+	"en": "Strawberry Bliss",
+	"pt": "Delícia de Morango",
+	"es": "Delicia de Fresa"
+  },
+  "04_Sweet_Encounters/03_Citrus_Kiss.webp": {
+	"en": "Citrus Kiss",
+	"pt": "Beijo Cítrico",
+	"es": "Beso Cítrico"
+  },
+  "04_Sweet_Encounters/04_Matcha_Muse.webp": {
+	"en": "Matcha Muse",
+	"pt": "Musa do Matcha",
+	"es": "Musa del Matcha"
+  },
+  "04_Sweet_Encounters/05_Honey_Crunch.webp": {
+	"en": "Honey Crunch",
+	"pt": "Crocância de Mel",
+	"es": "Crujiente de Miel"
+  },
+  "04_Sweet_Encounters/06_Peach_Daydream.webp": {
+	"en": "Peach Daydream",
+	"pt": "Devaneio de Pêssego",
+	"es": "Sueño de Durazno"
+  },
+  "03_High_Fantasy/03_Dawn_Between_Worlds.webp": {
+	"pt": "Aurora Entre Mundos",
+	"en": "Dawn Between Worlds",
+	"es": "Alba entre Mundos"
+  },
+  "03_High_Fantasy/06_Rosebound_Sorceress.webp": {
+	"pt": "Feiticeira das Rosas",
+	"en": "Rosebound Sorceress",
+	"es": "Hechicera de las Rosas"
+  },
+  "04_Sweet_Encounters/07_Dawn_of_Delights.webp": {
+	"pt": "Aurora de Delícias",
+	"en": "Dawn of Delights",
+	"es": "Alba de Delicias"
+  },
+  "04_Sweet_Encounters/08_Cocoa_Cloud.webp": {
+	"pt": "Nuvem de Cacau",
+	"en": "Cocoa Cloud",
+	"es": "Nube de Cacao"
+  },
+  "04_Sweet_Encounters/02b_Pistachio_Charm.webp": {
+	"en": "Pistachio Charm",
+	"es": "Encanto de Pistacho",
+	"pt": "Encanto de Pistache"
+  },
+  "04_Sweet_Encounters/05b_Blueberry_Serenade.webp": {
+	"en": "Blueberry Serenade",
+	"es": "Serenata de Arándanos",
+	"pt": "Serenata de Mirtilos"
+  },
+  "07_Velvet_Evenings/08_Dawn_After_Dusk.webp": {
+	"en": "Dawn After Dusk",
+	"pt": "Aurora Após o Anoitecer",
+	"es": "Alba al Anochecer"
+  },
+  "07_Velvet_Evenings/06_Silver_Whisper.webp": {
+	"en": "Silver Whisper",
+	"pt": "Sussurro Prateado",
+	"es": "Susurro Plateado"
+  },
+  "07_Velvet_Evenings/03_Golden_Repose.webp": {
+	"en": "Golden Repose",
+	"pt": "Repouso Dourado",
+	"es": "Reposo Dorado"
+  },
+  "07_Velvet_Evenings/04_Midnight_Velvet.webp": {
+	"en": "Midnight Velvet",
+	"pt": "Veludo da Meia-Noite",
+	"es": "Terciopelo de Medianoche"
+  },
+  "07_Velvet_Evenings/10_Rose_Slumber.webp": {
+	"en": "Rose Slumber",
+	"pt": "Sono de Rosas",
+	"es": "Sueño de Rosas"
+  },
+  "07_Velvet_Evenings/09_Ember_Evening.webp": {
+	"en": "Ember Evening",
+	"pt": "Noite de Brasas",
+	"es": "Noche de Brasas"
+  },
+  "07_Velvet_Evenings/05_Sakura_by_Moonlight.webp": {
+	"pt": "Sakura ao Luar",
+	"en": "Sakura by Moonlight",
+	"es": "Sakura a la Luz de la Luna"
+  },
+  "07_Velvet_Evenings/07_Jasmine_Nocturne.webp": {
+	"pt": "Noturno de Jasmim",
+	"en": "Jasmine Nocturne",
+	"es": "Nocturno de Jazmín"
+  },
+  "07_Velvet_Evenings/01_Seafoam_Reverie.webp": {
+	"pt": "Devaneio de Espuma",
+	"en": "Seafoam Reverie",
+	"es": "Ensueño de Espuma"
+  },
+  "07_Velvet_Evenings/02_Twin_Reflections.webp": {
+	"es": "Reflejos Gemelos",
+	"pt": "Reflexos Gêmeos",
+	"en": "Twin Reflections"
+  }
+}

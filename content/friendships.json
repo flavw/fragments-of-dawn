@@ -1,0 +1,4232 @@
+[
+  {
+	"id": "violet_garden",
+	"art": "res://content/images/01_Quiet_Moments/01_Lavender_Garden.webp",
+	"name": "Violet",
+	"intro": {
+	  "en": "Hello! I'm Violet, the eldest of three sisters. The other two are twins—and experts at teaming up on me! Lavender tea, lemon cake, and a good joke always brighten my day. What shall we do?",
+	  "pt": "Olá! Sou Violet, a mais velha de três irmãs. As outras duas são gêmeas — e especialistas em se unir para me provocar! Chá de lavanda, bolo de limão e uma boa brincadeira sempre alegram meu dia. O que vamos fazer?",
+	  "es": "¡Hola! Soy Violet, la mayor de tres hermanas. Las otras dos son gemelas… ¡y expertas en aliarse para tomarme el pelo! El té de lavanda, el pastel de limón y una buena broma siempre me alegran el día. ¿Qué hacemos?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "Let's visit a café.",
+		  "pt": "Vamos a uma cafeteria.",
+		  "es": "Vamos a una cafetería."
+		},
+		"dialogue": {
+		  "en": "Lovely! My sisters say I take choosing cake too seriously. How would you order for us?",
+		  "pt": "Adorei! Minhas irmãs dizem que levo a escolha do bolo a sério demais. Como você faria nosso pedido?",
+		  "es": "¡Me encanta! Mis hermanas dicen que me tomo demasiado en serio elegir un pastel. ¿Cómo pedirías para nosotros?"
+		},
+		"choices": [
+		  {
+			"label": {
+			  "en": "Lavender tea and lemon cake, please.",
+			  "pt": "Chá de lavanda e bolo de limão, por favor.",
+			  "es": "Té de lavanda y pastel de limón, por favor."
+			},
+			"reward": 1,
+			"ending": {
+			  "en": "You remembered! That's my favorite pair. A thoughtful choice deserves a little treasure. 💖",
+			  "pt": "Você lembrou! É minha combinação favorita. Uma escolha atenciosa merece um pequeno tesouro. 💖",
+			  "es": "¡Te acordaste! Es mi combinación favorita. Una elección atenta merece un pequeño tesoro. 💖"
+			}
+		  },
+		  {
+			"label": {
+			  "en": "Lemon cake. Three forks—I'll negotiate with the twins!",
+			  "pt": "Bolo de limão. Três garfos — negocio com as gêmeas!",
+			  "es": "Pastel de limón. ¡Tres tenedores, yo negocio con las gemelas!"
+			},
+			"reward": 2,
+			"ending": {
+			  "en": "Ha! Three forks won't last long with those two. You can sit beside me; we'll defend the cake together! 💕",
+			  "pt": "Ha! Três garfos não vão durar muito com aquelas duas. Sente ao meu lado; vamos defender o bolo juntos! 💕",
+			  "es": "¡Ja! Tres tenedores no durarán mucho con esas dos. ¡Siéntate a mi lado y defenderemos el pastel juntos! 💕"
+			}
+		  },
+		  {
+			"label": {
+			  "en": "Let's each try something new today.",
+			  "pt": "Vamos experimentar algo novo hoje.",
+			  "es": "Probemos algo nuevo hoy."
+			},
+			"reward": 0,
+			"ending": {
+			  "en": "A little adventure, then! I'll try the cinnamon pastry. Next time, you must taste my favorite cake.",
+			  "pt": "Uma pequena aventura, então! Vou provar o doce de canela. Na próxima, você precisa conhecer meu bolo favorito.",
+			  "es": "¡Una pequeña aventura, entonces! Probaré el dulce de canela. La próxima vez tienes que probar mi pastel favorito."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Tell me about your sisters.",
+		  "pt": "Conte sobre suas irmãs.",
+		  "es": "Cuéntame sobre tus hermanas."
+		},
+		"dialogue": {
+		  "en": "The twins once switched places during a family photo. I spotted them immediately. Being the eldest has its advantages! What would you do?",
+		  "pt": "As gêmeas já trocaram de lugar numa foto de família. Percebi na hora. Ser a mais velha tem suas vantagens! O que você faria?",
+		  "es": "Las gemelas una vez intercambiaron sus lugares en una foto familiar. Me di cuenta enseguida. ¡Ser la mayor tiene sus ventajas! ¿Qué harías tú?"
+		},
+		"choices": [
+		  {
+			"label": {
+			  "en": "Ask you to teach me how to tell them apart.",
+			  "pt": "Pediria dicas para distinguir as duas.",
+			  "es": "Te pediría consejos para distinguirlas."
+			},
+			"reward": 1,
+			"ending": {
+			  "en": "One always laughs before finishing her joke. The other waits for the perfect moment. You'll notice soon enough! 💖",
+			  "pt": "Uma sempre ri antes de terminar a piada. A outra espera o momento perfeito. Logo você vai perceber! 💖",
+			  "es": "Una siempre se ríe antes de terminar su broma. La otra espera el momento perfecto. ¡Pronto lo notarás! 💖"
+			}
+		  },
+		  {
+			"label": {
+			  "en": "Claim there's a third twin: me, wearing a ribbon!",
+			  "pt": "Diria que há uma terceira gêmea: eu, de laço!",
+			  "es": "¡Diría que hay una tercera gemela: yo, con un lazo!"
+			},
+			"reward": 2,
+			"ending": {
+			  "en": "A third one?! I'll need a bigger cake! You'd fit right in with our afternoon mischief. 💕",
+			  "pt": "Uma terceira?! Vou precisar de um bolo maior! Você combinaria com nossas travessuras da tarde. 💕",
+			  "es": "¿Una tercera? ¡Necesitaré un pastel más grande! Encajarías muy bien en nuestras travesuras de la tarde. 💕"
+			}
+		  },
+		  {
+			"label": {
+			  "en": "Offer to take another photo of all three of you.",
+			  "pt": "Ofereceria tirar outra foto das três.",
+			  "es": "Ofrecería tomar otra foto de las tres."
+			},
+			"reward": 0,
+			"ending": {
+			  "en": "That's sweet. Let's take it by the lavender—if we can convince the twins to stand still!",
+			  "pt": "Que gentileza. Vamos tirar perto da lavanda — se conseguirmos convencer as gêmeas a ficar paradas!",
+			  "es": "Qué detalle. Hagámosla junto a la lavanda… ¡si conseguimos que las gemelas se queden quietas!"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Let's enjoy the garden.",
+		  "pt": "Vamos aproveitar o jardim.",
+		  "es": "Disfrutemos del jardín."
+		},
+		"dialogue": {
+		  "en": "This is my peaceful little corner. Even the cat thinks he's in charge. What should we do first?",
+		  "pt": "Este é meu cantinho de paz. Até o gato acha que manda aqui. O que fazemos primeiro?",
+		  "es": "Este es mi pequeño rincón de paz. Hasta el gato cree que manda aquí. ¿Qué hacemos primero?"
+		},
+		"choices": [
+		  {
+			"label": {
+			  "en": "Help you care for the lavender.",
+			  "pt": "Ajudar você a cuidar da lavanda.",
+			  "es": "Ayudarte a cuidar la lavanda."
+			},
+			"reward": 1,
+			"ending": {
+			  "en": "Thank you! Just a little water and plenty of sunlight. I'll make us some tea when we're done. 💖",
+			  "pt": "Obrigada! Só um pouco de água e bastante luz. Vou preparar um chá quando terminarmos. 💖",
+			  "es": "¡Gracias! Solo un poco de agua y mucha luz. Prepararé un té cuando terminemos. 💖"
+			}
+		  },
+		  {
+			"label": {
+			  "en": "Ask the cat for permission. He looks like the manager.",
+			  "pt": "Pedir licença ao gato. Ele parece o gerente.",
+			  "es": "Pedir permiso al gato. Parece el encargado."
+			},
+			"reward": 2,
+			"ending": {
+			  "en": "He accepts payment in naps and compliments! I like your sense of humor. Stay a little longer, won't you? 💕",
+			  "pt": "Ele aceita pagamento em cochilos e elogios! Gostei do seu humor. Fique mais um pouco, vai? 💕",
+			  "es": "¡Acepta pagos en siestas y cumplidos! Me gusta tu sentido del humor. Quédate un rato más, ¿sí? 💕"
+			}
+		  },
+		  {
+			"label": {
+			  "en": "Sit quietly and watch the butterflies.",
+			  "pt": "Sentar em silêncio e observar as borboletas.",
+			  "es": "Sentarnos en silencio a mirar las mariposas."
+			},
+			"reward": 0,
+			"ending": {
+			  "en": "Sometimes a quiet moment is all we need. Look—there's a butterfly by your shoulder!",
+			  "pt": "Às vezes, um momento tranquilo é tudo de que precisamos. Olhe — tem uma borboleta perto do seu ombro!",
+			  "es": "A veces un momento tranquilo es todo lo que necesitamos. ¡Mira, hay una mariposa cerca de tu hombro!"
+			}
+		  }
+		]
+	  }
+	],
+	"collection": "Quiet Moments"
+  },
+  {
+	"id": "selene_serenade",
+	"name": "Selene",
+	"art": "res://content/images/01_Quiet_Moments/02_Moonlight_Serenade.webp",
+	"focus": [
+	  0.3,
+	  0.23
+	],
+	"intro": {
+	  "en": "I'm Selene. I play the harp here when the lake turns silver. I love listening: to music, to the water, and to stories told without rushing. Will you keep me company?",
+	  "pt": "Sou Selene. Toco harpa aqui quando o lago fica prateado. Adoro escutar: a música, a água e histórias contadas sem pressa. Faz companhia para mim?",
+	  "es": "Soy Selene. Toco el arpa aquí cuando el lago se vuelve plateado. Me encanta escuchar: la música, el agua y las historias contadas sin prisas. ¿Me acompañas?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "May I hear your melody?",
+		  "pt": "Posso ouvir sua melodia?",
+		  "es": "¿Puedo escuchar tu melodía?"
+		},
+		"dialogue": {
+		  "en": "Of course. This one is unfinished. What would you add?",
+		  "pt": "Claro. Esta ainda está incompleta. O que você acrescentaria?",
+		  "es": "Claro. Esta aún está incompleta. ¿Qué añadirías?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "A pause to hear the lake.",
+			  "pt": "Uma pausa para ouvir o lago.",
+			  "es": "Una pausa para escuchar el lago."
+			},
+			"ending": {
+			  "en": "Exactly! Silence belongs in music too. Let us listen before the next note. 💕",
+			  "pt": "Exatamente! O silêncio também faz parte da música. Vamos escutar antes da próxima nota. 💕",
+			  "es": "¡Exacto! El silencio también forma parte de la música. Escuchemos antes de la siguiente nota. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "A dramatic trumpet finale!",
+			  "pt": "Um final dramático com trompetes!",
+			  "es": "¡Un final dramático con trompetas!"
+			},
+			"ending": {
+			  "en": "The castle might wake up! Let us save that grand finale for a sunny festival.",
+			  "pt": "O castelo pode acordar! Vamos guardar esse grande final para uma festa ensolarada.",
+			  "es": "¡El castillo podría despertarse! Guardemos ese gran final para una fiesta soleada."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "A gentle humming accompaniment.",
+			  "pt": "Um acompanhamento cantarolado bem suave.",
+			  "es": "Un acompañamiento tarareado muy suave."
+			},
+			"ending": {
+			  "en": "That would be lovely. Follow the strings; we need no perfect voices tonight. 💖",
+			  "pt": "Seria lindo. Acompanhe as cordas; não precisamos de vozes perfeitas esta noite. 💖",
+			  "es": "Sería precioso. Sigue las cuerdas; no necesitamos voces perfectas esta noche. 💖"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Tell me about the moonlit lake.",
+		  "pt": "Conte sobre o lago ao luar.",
+		  "es": "Cuéntame sobre el lago a la luz de la luna."
+		},
+		"dialogue": {
+		  "en": "Every night its reflections change. Where shall we look?",
+		  "pt": "Toda noite os reflexos mudam. Para onde vamos olhar?",
+		  "es": "Cada noche cambian sus reflejos. ¿Dónde miramos?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The lanterns along the shore.",
+			  "pt": "As lanternas na margem.",
+			  "es": "Las linternas de la orilla."
+			},
+			"ending": {
+			  "en": "They look like notes on a golden staff. You have an eye for little wonders. 💖",
+			  "pt": "Parecem notas numa pauta dourada. Você percebe as pequenas maravilhas. 💖",
+			  "es": "Parecen notas en un pentagrama dorado. Sabes apreciar las pequeñas maravillas. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "The castle: perhaps it has a ball tonight.",
+			  "pt": "O castelo: talvez tenha um baile hoje.",
+			  "es": "El castillo: quizá haya un baile esta noche."
+			},
+			"ending": {
+			  "en": "Perhaps! For now, our terrace has the best seats and no dress code.",
+			  "pt": "Talvez! Por enquanto, nossa varanda tem os melhores lugares e dispensa traje de gala.",
+			  "es": "¡Quizá! Por ahora, nuestra terraza tiene los mejores sitios y no exige traje de gala."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "The moon between the water lilies.",
+			  "pt": "A lua entre as flores na água.",
+			  "es": "La luna entre los nenúfares."
+			},
+			"ending": {
+			  "en": "You found my favorite view. Two moons, one sky—and someone to share them with. 💕",
+			  "pt": "Você encontrou minha vista favorita. Duas luas, um céu — e alguém com quem compartilhar. 💕",
+			  "es": "Encontraste mi vista favorita. Dos lunas, un cielo… y alguien con quien compartirlas. 💕"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Shall we make a song together?",
+		  "pt": "Vamos criar uma canção juntos?",
+		  "es": "¿Creamos una canción juntos?"
+		},
+		"dialogue": {
+		  "en": "Give our little song a beginning.",
+		  "pt": "Dê um começo à nossa pequena canção.",
+		  "es": "Dale un comienzo a nuestra pequeña canción."
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "A heroic march through the mountains.",
+			  "pt": "Uma marcha heroica pelas montanhas.",
+			  "es": "Una marcha heroica por las montañas."
+			},
+			"ending": {
+			  "en": "A splendid adventure! My sleepy harp may need breakfast before attempting it.",
+			  "pt": "Uma bela aventura! Minha harpa sonolenta talvez precise de café da manhã antes.",
+			  "es": "¡Una gran aventura! Mi arpa soñolienta quizá necesite desayunar antes."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "A traveler stops to listen.",
+			  "pt": "Um viajante para para escutar.",
+			  "es": "Un viajero se detiene a escuchar."
+			},
+			"ending": {
+			  "en": "Then the traveler stays for one more verse. I think our song has already begun. 💕",
+			  "pt": "Então o viajante fica para mais um verso. Acho que nossa canção já começou. 💕",
+			  "es": "Entonces el viajero se queda para un verso más. Creo que nuestra canción ya ha empezado. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "A lantern lights the way home.",
+			  "pt": "Uma lanterna ilumina o caminho de casa.",
+			  "es": "Una linterna ilumina el camino a casa."
+			},
+			"ending": {
+			  "en": "Warm and gentle. I can almost hear its little flame keeping the rhythm. 💖",
+			  "pt": "Acolhedor e delicado. Quase consigo ouvir a pequena chama marcando o ritmo. 💖",
+			  "es": "Cálido y delicado. Casi puedo oír la pequeña llama marcando el ritmo. 💖"
+			}
+		  }
+		]
+	  }
+	],
+	"collection": "Quiet Moments"
+  },
+  {
+	"id": "marina_watercolors",
+	"name": "Marina",
+	"art": "res://content/images/01_Quiet_Moments/03_Seaside_Watercolors.webp",
+	"focus": [
+	  0.23,
+	  0.24
+	],
+	"intro": {
+	  "en": "Hello, I'm Marina! I'm painting the harbor, though the boats refuse to stay still. I like curious people and unexpected colors. Care to help me find my next inspiration?",
+	  "pt": "Olá, sou Marina! Estou pintando o porto, mas os barcos se recusam a ficar parados. Gosto de gente curiosa e cores inesperadas. Me ajuda a encontrar minha próxima inspiração?",
+	  "es": "¡Hola, soy Marina! Estoy pintando el puerto, pero los barcos se niegan a quedarse quietos. Me gusta la gente curiosa y los colores inesperados. ¿Me ayudas a encontrar mi próxima inspiración?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "Let us choose a color.",
+		  "pt": "Vamos escolher uma cor.",
+		  "es": "Elijamos un color."
+		},
+		"dialogue": {
+		  "en": "The sea is blue, but a painting can surprise us. What shall I try?",
+		  "pt": "O mar é azul, mas uma pintura pode surpreender. O que devo tentar?",
+		  "es": "El mar es azul, pero un cuadro puede sorprendernos. ¿Qué pruebo?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Exactly the blue already in your palette.",
+			  "pt": "Exatamente o azul que já está na paleta.",
+			  "es": "Exactamente el azul que ya tienes en la paleta."
+			},
+			"ending": {
+			  "en": "A faithful portrait of the harbor! My brushes know that blue very well.",
+			  "pt": "Um retrato fiel do porto! Meus pincéis conhecem bem esse azul.",
+			  "es": "¡Un retrato fiel del puerto! Mis pinceles conocen muy bien ese azul."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Gold for the sunlight on the waves.",
+			  "pt": "Dourado para o sol nas ondas.",
+			  "es": "Dorado para el sol sobre las olas."
+			},
+			"ending": {
+			  "en": "Yes! Just a touch, like the sea wearing tiny pieces of jewelry. 💖",
+			  "pt": "Sim! Só um toque, como se o mar usasse pequenas joias. 💖",
+			  "es": "¡Sí! Solo un toque, como si el mar llevara pequeñas joyas. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Lavender shadows beneath turquoise water.",
+			  "pt": "Sombras de lavanda sob a água turquesa.",
+			  "es": "Sombras lavanda bajo el agua turquesa."
+			},
+			"ending": {
+			  "en": "Unexpected—and beautiful! You have made me see this familiar shore with new eyes. 💕",
+			  "pt": "Inesperado — e lindo! Você me fez ver esta costa conhecida com outros olhos. 💕",
+			  "es": "¡Inesperado y precioso! Me has hecho ver esta costa familiar con otros ojos. 💕"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Let us explore the harbor.",
+		  "pt": "Vamos explorar o porto.",
+		  "es": "Exploremos el puerto."
+		},
+		"dialogue": {
+		  "en": "My sketchbook still has empty pages. Where shall we go?",
+		  "pt": "Meu caderno ainda tem páginas vazias. Aonde vamos?",
+		  "es": "Mi cuaderno aún tiene páginas vacías. ¿Adónde vamos?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Find the smallest boat and ask its story.",
+			  "pt": "Encontrar o menor barco e conhecer sua história.",
+			  "es": "Buscar el barco más pequeño y conocer su historia."
+			},
+			"ending": {
+			  "en": "Perfect! Grand adventures can hide in tiny boats. Bring the sketchbook; I will bring the curiosity. 💕",
+			  "pt": "Perfeito! Grandes aventuras cabem em pequenos barcos. Leve o caderno; eu levo a curiosidade. 💕",
+			  "es": "¡Perfecto! Grandes aventuras caben en barcos pequeños. Lleva el cuaderno; yo llevo la curiosidad. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Walk past the colorful houses.",
+			  "pt": "Passear pelas casas coloridas.",
+			  "es": "Pasear junto a las casas de colores."
+			},
+			"ending": {
+			  "en": "Those shutters always inspire me. Let us collect colors instead of souvenirs. 💖",
+			  "pt": "Aquelas janelas sempre me inspiram. Vamos colecionar cores em vez de lembrancinhas. 💖",
+			  "es": "Esas ventanas siempre me inspiran. Coleccionemos colores en vez de recuerdos. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Stay here and finish your coffee.",
+			  "pt": "Ficar aqui e terminar seu café.",
+			  "es": "Quedarnos aquí y terminar tu café."
+			},
+			"ending": {
+			  "en": "A sensible little expedition to the bottom of my cup! The boats can wait a moment.",
+			  "pt": "Uma expedição sensata até o fundo da minha xícara! Os barcos podem esperar um pouco.",
+			  "es": "¡Una expedición sensata hasta el fondo de mi taza! Los barcos pueden esperar un momento."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "May I paint beside you?",
+		  "pt": "Posso pintar ao seu lado?",
+		  "es": "¿Puedo pintar a tu lado?"
+		},
+		"dialogue": {
+		  "en": "Absolutely. What would you put on your first page?",
+		  "pt": "Claro. O que colocaria na primeira página?",
+		  "es": "Claro. ¿Qué pondrías en tu primera página?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The flowers beside your balcony.",
+			  "pt": "As flores ao lado da varanda.",
+			  "es": "Las flores junto a tu balcón."
+			},
+			"ending": {
+			  "en": "A lovely beginning. Leave a little white paper for the light between the petals. 💖",
+			  "pt": "Um lindo começo. Deixe um pouco de papel branco para a luz entre as pétalas. 💖",
+			  "es": "Un comienzo precioso. Deja un poco de papel blanco para la luz entre los pétalos. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "The harbor as our sleepy cat imagines it.",
+			  "pt": "O porto como nosso gato sonolento o imagina.",
+			  "es": "El puerto como lo imagina nuestro gato dormilón."
+			},
+			"ending": {
+			  "en": "A sea full of fish-shaped boats? Now that is a painting I must see! 💕",
+			  "pt": "Um mar cheio de barcos em forma de peixe? Essa pintura eu preciso ver! 💕",
+			  "es": "¿Un mar lleno de barcos con forma de pez? ¡Tengo que ver ese cuadro! 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "A careful copy of your sketch.",
+			  "pt": "Uma cópia cuidadosa do seu esboço.",
+			  "es": "Una copia cuidadosa de tu boceto."
+			},
+			"ending": {
+			  "en": "We can practice together. Later, leave one corner for an idea that is entirely yours.",
+			  "pt": "Podemos praticar juntos. Depois, deixe um cantinho para uma ideia só sua.",
+			  "es": "Podemos practicar juntos. Luego, deja un rincón para una idea completamente tuya."
+			}
+		  }
+		]
+	  }
+	],
+	"collection": "Quiet Moments"
+  },
+  {
+	"id": "iris_stillness",
+	"name": "Iris",
+	"art": "res://content/images/01_Quiet_Moments/04_Emerald_Stillness.webp",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "I'm Iris. This garden is my favorite place for tea. The roses, the butterflies, the distant water… little things deserve a little attention. Shall we share a quiet afternoon?",
+	  "pt": "Sou Iris. Este jardim é meu lugar favorito para tomar chá. As rosas, as borboletas, a água ao longe… pequenas coisas merecem um pouco de atenção. Vamos compartilhar uma tarde tranquila?",
+	  "es": "Soy Iris. Este jardín es mi lugar favorito para tomar té. Las rosas, las mariposas, el agua a lo lejos… las pequeñas cosas merecen un poco de atención. ¿Compartimos una tarde tranquila?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "Let us have tea.",
+		  "pt": "Vamos tomar chá.",
+		  "es": "Tomemos té."
+		},
+		"dialogue": {
+		  "en": "I have an extra cup. What would make this tea even better?",
+		  "pt": "Tenho uma xícara extra. O que deixaria este chá ainda melhor?",
+		  "es": "Tengo una taza extra. ¿Qué haría este té aún mejor?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "A small honey biscuit.",
+			  "pt": "Um pequeno biscoito de mel.",
+			  "es": "Una pequeña galleta de miel."
+			},
+			"ending": {
+			  "en": "A sweet little companion for the tea. I will split the last one with you. 💖",
+			  "pt": "Uma doce companhia para o chá. Divido o último com você. 💖",
+			  "es": "Una dulce compañía para el té. Compartiré el último contigo. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "An enormous tower of cakes!",
+			  "pt": "Uma torre enorme de bolos!",
+			  "es": "¡Una torre enorme de pasteles!"
+			},
+			"ending": {
+			  "en": "We might need a bigger table! For today, one slice and a good conversation will do.",
+			  "pt": "Talvez precisemos de uma mesa maior! Por hoje, uma fatia e uma boa conversa bastam.",
+			  "es": "¡Quizá necesitemos una mesa más grande! Por hoy, basta una porción y una buena conversación."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Company that does not rush the afternoon.",
+			  "pt": "Uma companhia que não apresse a tarde.",
+			  "es": "Una compañía que no apresure la tarde."
+			},
+			"ending": {
+			  "en": "Then we already have everything. Stay; the tea is warm and there is no hurry. 💕",
+			  "pt": "Então já temos tudo. Fique; o chá está quente e não há pressa. 💕",
+			  "es": "Entonces ya lo tenemos todo. Quédate; el té está caliente y no hay prisa. 💕"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "What do you notice in the garden?",
+		  "pt": "O que você percebe no jardim?",
+		  "es": "¿Qué notas en el jardín?"
+		},
+		"dialogue": {
+		  "en": "There is always something new, even here. What caught your eye?",
+		  "pt": "Sempre há algo novo, mesmo aqui. O que chamou sua atenção?",
+		  "es": "Siempre hay algo nuevo, incluso aquí. ¿Qué te llamó la atención?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "The butterfly resting instead of flying.",
+			  "pt": "A borboleta descansando em vez de voar.",
+			  "es": "La mariposa descansando en vez de volar."
+			},
+			"ending": {
+			  "en": "You noticed! Even butterflies need a pause. I like the way you look at the world. 💕",
+			  "pt": "Você percebeu! Até as borboletas precisam de uma pausa. Gosto do seu jeito de olhar o mundo. 💕",
+			  "es": "¡Te diste cuenta! Hasta las mariposas necesitan una pausa. Me gusta tu manera de mirar el mundo. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "The faraway town; it looks busy.",
+			  "pt": "A cidade ao longe; parece movimentada.",
+			  "es": "La ciudad a lo lejos; parece animada."
+			},
+			"ending": {
+			  "en": "It is lovely to visit. Here, we can enjoy its view without joining the bustle.",
+			  "pt": "É adorável visitá-la. Aqui, podemos aproveitar a vista sem entrar na correria.",
+			  "es": "Es encantador visitarla. Aquí podemos disfrutar de la vista sin entrar en el bullicio."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The roses matching your tea cup.",
+			  "pt": "As rosas combinando com sua xícara.",
+			  "es": "Las rosas que combinan con tu taza."
+			},
+			"ending": {
+			  "en": "My little collection of favorite colors! You noticed a detail I treasure. 💖",
+			  "pt": "Minha pequena coleção de cores favoritas! Você percebeu um detalhe que adoro. 💖",
+			  "es": "¡Mi pequeña colección de colores favoritos! Notaste un detalle que aprecio mucho. 💖"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "May I help care for this corner?",
+		  "pt": "Posso ajudar a cuidar deste cantinho?",
+		  "es": "¿Puedo ayudar a cuidar este rincón?"
+		},
+		"dialogue": {
+		  "en": "How kind. Where should we begin?",
+		  "pt": "Que gentileza. Por onde começamos?",
+		  "es": "Qué detalle. ¿Por dónde empezamos?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Rearrange all the flowers into perfect rows.",
+			  "pt": "Reorganizar todas as flores em filas perfeitas.",
+			  "es": "Reorganizar todas las flores en filas perfectas."
+			},
+			"ending": {
+			  "en": "A neat idea! Though I confess I love their little surprises. Perhaps just tidy the path?",
+			  "pt": "Uma ideia organizada! Mas confesso que adoro suas pequenas surpresas. Que tal só arrumar o caminho?",
+			  "es": "¡Una idea ordenada! Aunque confieso que adoro sus pequeñas sorpresas. ¿Ordenamos solo el sendero?"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Check which plants need water first.",
+			  "pt": "Ver quais plantas precisam de água primeiro.",
+			  "es": "Ver qué plantas necesitan agua primero."
+			},
+			"ending": {
+			  "en": "Care begins with noticing. With your help, this corner will keep blooming. 💕",
+			  "pt": "Cuidar começa por observar. Com sua ajuda, este cantinho continuará florescendo. 💕",
+			  "es": "Cuidar empieza por observar. Con tu ayuda, este rincón seguirá floreciendo. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Bring a little water for the roses.",
+			  "pt": "Trazer um pouco de água para as rosas.",
+			  "es": "Traer un poco de agua para las rosas."
+			},
+			"ending": {
+			  "en": "Thank you. A gentle pour by the roots—and then another cup of tea for us. 💖",
+			  "pt": "Obrigada. Um pouco junto às raízes — e depois mais uma xícara de chá para nós. 💖",
+			  "es": "Gracias. Un poco junto a las raíces… y luego otra taza de té para nosotros. 💖"
+			}
+		  }
+		]
+	  }
+	],
+	"collection": "Quiet Moments"
+  },
+  {
+	"id": "quiet_05",
+	"art": "res://content/images/01_Quiet_Moments/05_Ember in Bloom.webp",
+	"name": "Lia",
+	"collection": "Quiet Moments",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "I'm Lia! These peaches are for a picnic, and there is always room for one more friend. I love turning an ordinary afternoon into a little celebration. Coming?",
+	  "pt": "Sou Lia! Estes pêssegos são para um piquenique, e sempre cabe mais uma amizade. Adoro transformar uma tarde comum numa pequena festa. Vamos?",
+	  "es": "¡Soy Lia! Estos melocotones son para un pícnic y siempre cabe una amistad más. Me encanta convertir una tarde cualquiera en una pequeña fiesta. ¿Vienes?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "Let us plan the picnic.",
+		  "pt": "Vamos planejar o piquenique.",
+		  "es": "Planeemos el pícnic."
+		},
+		"dialogue": {
+		  "en": "I brought fruit. What will you bring?",
+		  "pt": "Trouxe frutas. O que você leva?",
+		  "es": "Traje fruta. ¿Qué llevas tú?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "A blanket and an invitation for everyone.",
+			  "pt": "Uma toalha e um convite para todo mundo.",
+			  "es": "Una manta y una invitación para todos."
+			},
+			"ending": {
+			  "en": "Yes! A picnic grows better with company. I will introduce you to everyone. 💕",
+			  "pt": "Sim! Um piquenique fica melhor com companhia. Vou apresentar você a todo mundo. 💕",
+			  "es": "¡Sí! Un pícnic mejora con compañía. Te presentaré a todos. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "A detailed seating chart.",
+			  "pt": "Um mapa detalhado dos lugares.",
+			  "es": "Un plano detallado de los asientos."
+			},
+			"ending": {
+			  "en": "How organized! Though I suspect we will all end up laughing under the same tree.",
+			  "pt": "Que organização! Mas acho que acabaremos rindo debaixo da mesma árvore.",
+			  "es": "¡Qué organización! Aunque creo que acabaremos riendo bajo el mismo árbol."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Fresh bread to share.",
+			  "pt": "Pão fresquinho para compartilhar.",
+			  "es": "Pan recién hecho para compartir."
+			},
+			"ending": {
+			  "en": "Perfect with peaches! You have excellent picnic instincts. 💖",
+			  "pt": "Perfeito com pêssegos! Você entende de piquenique. 💖",
+			  "es": "¡Perfecto con melocotones! Tienes buen instinto para los pícnics. 💖"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Show me your favorite corner.",
+		  "pt": "Mostre seu cantinho favorito.",
+		  "es": "Enséñame tu rincón favorito."
+		},
+		"dialogue": {
+		  "en": "The flowers are lovely, but this terrace needs a little life. What shall we do?",
+		  "pt": "As flores são lindas, mas esta varanda pede animação. O que fazemos?",
+		  "es": "Las flores son preciosas, pero esta terraza necesita alegría. ¿Qué hacemos?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Take a cheerful photo among the roses.",
+			  "pt": "Tirar uma foto alegre entre as rosas.",
+			  "es": "Hacer una foto alegre entre las rosas."
+			},
+			"ending": {
+			  "en": "Smile! Let us keep a little piece of this sunny afternoon. 💖",
+			  "pt": "Sorria! Vamos guardar um pedacinho desta tarde ensolarada. 💖",
+			  "es": "¡Sonríe! Guardemos un pedacito de esta tarde soleada. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Make up a dance while we unpack the basket.",
+			  "pt": "Inventar uma dança enquanto abrimos a cesta.",
+			  "es": "Inventar un baile mientras abrimos la cesta."
+			},
+			"ending": {
+			  "en": "Now you are speaking my language! Even unpacking deserves a tiny celebration. 💕",
+			  "pt": "Agora você falou minha língua! Até abrir a cesta merece uma pequena festa. 💕",
+			  "es": "¡Ahora hablas mi idioma! Hasta abrir la cesta merece una pequeña fiesta. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Make a list of every flower.",
+			  "pt": "Fazer uma lista de todas as flores.",
+			  "es": "Hacer una lista de todas las flores."
+			},
+			"ending": {
+			  "en": "A lovely keepsake. I will try not to distract you with too many stories!",
+			  "pt": "Uma linda lembrança. Vou tentar não distrair você com histórias demais!",
+			  "es": "Un bonito recuerdo. ¡Intentaré no distraerte con demasiadas historias!"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "What shall we do with the peaches?",
+		  "pt": "O que fazemos com os pêssegos?",
+		  "es": "¿Qué hacemos con los melocotones?"
+		},
+		"dialogue": {
+		  "en": "I picked more than I can eat. Any ideas?",
+		  "pt": "Colhi mais do que consigo comer. Alguma ideia?",
+		  "es": "Recogí más de los que puedo comer. ¿Alguna idea?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Save every one for later.",
+			  "pt": "Guardar todos para depois.",
+			  "es": "Guardarlos todos para después."
+			},
+			"ending": {
+			  "en": "Tomorrow will taste wonderful too. Let us keep a few for breakfast.",
+			  "pt": "Amanhã também será delicioso. Vamos guardar alguns para o café da manhã.",
+			  "es": "Mañana también sabrá delicioso. Guardemos algunos para desayunar."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Bake a little tart together.",
+			  "pt": "Preparar uma tortinha juntos.",
+			  "es": "Preparar una tartita juntos."
+			},
+			"ending": {
+			  "en": "I will fetch the flour! Baking is better when someone helps taste the filling. 💖",
+			  "pt": "Vou buscar a farinha! Cozinhar fica melhor com alguém para provar o recheio. 💖",
+			  "es": "¡Voy por la harina! Cocinar mejora con alguien que pruebe el relleno. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Share them and collect a story from each guest.",
+			  "pt": "Compartilhar e ouvir uma história de cada pessoa.",
+			  "es": "Compartirlos y escuchar una historia de cada persona."
+			},
+			"ending": {
+			  "en": "Fruit, stories, new friends: my favorite recipe for a perfect afternoon! 💕",
+			  "pt": "Frutas, histórias, novas amizades: minha receita favorita para uma tarde perfeita! 💕",
+			  "es": "¡Fruta, historias y nuevas amistades: mi receta favorita para una tarde perfecta! 💕"
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "quiet_06",
+	"art": "res://content/images/01_Quiet_Moments/06_Honeyed Afternoon.webp",
+	"name": "Celeste",
+	"collection": "Quiet Moments",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "I'm Celeste. This café makes a lovely floral tea, best enjoyed slowly. Sophistication, to me, is noticing small pleasures and making others feel welcome. May I offer you a seat?",
+	  "pt": "Sou Celeste. Esta cafeteria prepara um chá floral adorável, melhor apreciado sem pressa. Para mim, sofisticação é perceber pequenos prazeres e acolher bem as pessoas. Quer se sentar?",
+	  "es": "Soy Celeste. Esta cafetería prepara un té floral delicioso, mejor disfrutado sin prisas. Para mí, la sofisticación está en apreciar pequeños placeres y hacer sentir bien a los demás. ¿Quieres sentarte?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "Help me choose a tea.",
+		  "pt": "Me ajude a escolher um chá.",
+		  "es": "Ayúdame a elegir un té."
+		},
+		"dialogue": {
+		  "en": "What matters most in our choice?",
+		  "pt": "O que mais importa na nossa escolha?",
+		  "es": "¿Qué importa más al elegir?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "The most expensive name on the menu.",
+			  "pt": "O nome mais caro do cardápio.",
+			  "es": "El nombre más caro de la carta."
+			},
+			"ending": {
+			  "en": "An interesting blend, perhaps. But a pleasant taste matters more than its price.",
+			  "pt": "Talvez seja uma mistura interessante. Mas o sabor agradável importa mais que o preço.",
+			  "es": "Quizá sea una mezcla interesante. Pero el buen sabor importa más que el precio."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Ask about the aroma and what we both enjoy.",
+			  "pt": "Perguntar sobre o aroma e o que nós dois gostamos.",
+			  "es": "Preguntar por el aroma y lo que nos gusta a ambos."
+			},
+			"ending": {
+			  "en": "How thoughtful. An elegant choice leaves room for both people at the table. 💕",
+			  "pt": "Que atenção. Uma escolha elegante dá espaço às duas pessoas à mesa. 💕",
+			  "es": "Qué detalle. Una elección elegante deja espacio para ambas personas en la mesa. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Your favorite floral blend.",
+			  "pt": "Sua mistura floral favorita.",
+			  "es": "Tu mezcla floral favorita."
+			},
+			"ending": {
+			  "en": "Then jasmine with a touch of honey. I would love to share it with you. 💖",
+			  "pt": "Então, jasmim com um toque de mel. Adoraria compartilhar com você. 💖",
+			  "es": "Entonces, jazmín con un toque de miel. Me encantaría compartirlo contigo. 💖"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Tell me about that beautiful cup.",
+		  "pt": "Conte sobre essa xícara bonita.",
+		  "es": "Cuéntame sobre esa taza tan bonita."
+		},
+		"dialogue": {
+		  "en": "The painted flowers remind me of this terrace. What detail do you like?",
+		  "pt": "As flores pintadas lembram esta varanda. Qual detalhe você aprecia?",
+		  "es": "Las flores pintadas me recuerdan esta terraza. ¿Qué detalle te gusta?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "The care in each little blue petal.",
+			  "pt": "O cuidado em cada pequena pétala azul.",
+			  "es": "El cuidado en cada pequeño pétalo azul."
+			},
+			"ending": {
+			  "en": "You see what I see. Beauty often lives in things made with care. 💕",
+			  "pt": "Você vê o que eu vejo. A beleza costuma morar nas coisas feitas com cuidado. 💕",
+			  "es": "Ves lo que yo veo. La belleza suele vivir en las cosas hechas con cuidado. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "How it matches your dress.",
+			  "pt": "Como combina com seu vestido.",
+			  "es": "Cómo combina con tu vestido."
+			},
+			"ending": {
+			  "en": "Thank you. Apparently the flowers and I agreed on a palette today. 💖",
+			  "pt": "Obrigada. Parece que as flores e eu combinamos a paleta de hoje. 💖",
+			  "es": "Gracias. Parece que las flores y yo acordamos la paleta de hoy. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "How much tea fits inside.",
+			  "pt": "Quanto chá cabe nela.",
+			  "es": "Cuánto té cabe dentro."
+			},
+			"ending": {
+			  "en": "A practical eye! Fortunately, the pot still has enough for another cup.",
+			  "pt": "Um olhar prático! Felizmente, o bule ainda tem chá para outra xícara.",
+			  "es": "¡Una mirada práctica! Por suerte, queda té para otra taza."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Let us walk by the canal.",
+		  "pt": "Vamos passear pelo canal.",
+		  "es": "Paseemos junto al canal."
+		},
+		"dialogue": {
+		  "en": "We can take the bridge or stay by the café. What would you suggest?",
+		  "pt": "Podemos atravessar a ponte ou ficar perto do café. O que sugere?",
+		  "es": "Podemos cruzar el puente o quedarnos cerca del café. ¿Qué sugieres?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The bridge, to admire the little boats.",
+			  "pt": "A ponte, para admirar os barquinhos.",
+			  "es": "El puente, para admirar las barquitas."
+			},
+			"ending": {
+			  "en": "A lovely view. Let us stop halfway and watch the reflections. 💖",
+			  "pt": "Uma linda vista. Vamos parar no meio e observar os reflexos. 💖",
+			  "es": "Una vista preciosa. Paremos a mitad de camino para mirar los reflejos. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Race to the far end!",
+			  "pt": "Correr até o outro lado!",
+			  "es": "¡Correr hasta el otro lado!"
+			},
+			"ending": {
+			  "en": "An energetic proposal! Let me finish my tea before our grand expedition.",
+			  "pt": "Uma proposta animada! Deixe eu terminar meu chá antes da grande expedição.",
+			  "es": "¡Una propuesta animada! Déjame acabar el té antes de nuestra gran expedición."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Offer your company and let the afternoon guide us.",
+			  "pt": "Oferecer companhia e deixar a tarde nos guiar.",
+			  "es": "Ofrecer tu compañía y dejar que la tarde nos guíe."
+			},
+			"ending": {
+			  "en": "That sounds delightful. Good company is the finest part of any itinerary. 💕",
+			  "pt": "Parece encantador. Uma boa companhia é a melhor parte de qualquer roteiro. 💕",
+			  "es": "Suena encantador. Una buena compañía es lo mejor de cualquier itinerario. 💕"
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "quiet_07",
+	"art": "res://content/images/01_Quiet_Moments/07_Velvet Twilight.webp",
+	"name": "Clara",
+	"collection": "Quiet Moments",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "I'm Clara, one of Violet's younger twin sisters. Flora is my twin; she collects sunny adventures, while I collect stories. I was reading by the lanterns. Shall we choose our own little tale?",
+	  "pt": "Sou Clara, uma das irmãs gêmeas mais novas de Violet. Minha gêmea é Flora; ela coleciona aventuras ensolaradas, eu coleciono histórias. Estava lendo à luz das lanternas. Vamos escolher nosso próprio conto?",
+	  "es": "Soy Clara, una de las hermanas gemelas menores de Violet. Mi gemela es Flora; ella colecciona aventuras soleadas y yo, historias. Estaba leyendo junto a las farolas. ¿Elegimos nuestro propio cuento?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "What are you reading?",
+		  "pt": "O que você está lendo?",
+		  "es": "¿Qué estás leyendo?"
+		},
+		"dialogue": {
+		  "en": "A traveler finds a door in a garden. What lies beyond?",
+		  "pt": "Um viajante encontra uma porta num jardim. O que há do outro lado?",
+		  "es": "Un viajero encuentra una puerta en un jardín. ¿Qué hay al otro lado?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "A world that changes with each story told.",
+			  "pt": "Um mundo que muda a cada história contada.",
+			  "es": "Un mundo que cambia con cada historia contada."
+			},
+			"ending": {
+			  "en": "Now that is a chapter worth opening. Will you help me invent its first page? 💕",
+			  "pt": "Esse capítulo merece ser aberto. Me ajuda a inventar a primeira página? 💕",
+			  "es": "Ese capítulo merece abrirse. ¿Me ayudas a inventar su primera página? 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Another perfectly ordinary garden.",
+			  "pt": "Outro jardim perfeitamente comum.",
+			  "es": "Otro jardín perfectamente corriente."
+			},
+			"ending": {
+			  "en": "Perhaps the surprise is in the small details. Even ordinary gardens have secrets.",
+			  "pt": "Talvez a surpresa esteja nos detalhes. Até jardins comuns têm segredos.",
+			  "es": "Quizá la sorpresa esté en los detalles. Hasta los jardines corrientes tienen secretos."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "A library lit by stars.",
+			  "pt": "Uma biblioteca iluminada por estrelas.",
+			  "es": "Una biblioteca iluminada por estrellas."
+			},
+			"ending": {
+			  "en": "A beautiful place to get lost among books. I would bring a blanket and stay. 💖",
+			  "pt": "Um belo lugar para se perder entre livros. Eu levaria uma manta e ficaria. 💖",
+			  "es": "Un bello lugar para perderse entre libros. Llevaría una manta y me quedaría. 💖"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "How can I tell you and Flora apart?",
+		  "pt": "Como diferencio você e Flora?",
+		  "es": "¿Cómo os distingo a Flora y a ti?"
+		},
+		"dialogue": {
+		  "en": "Violet knows at once. What clue would you use?",
+		  "pt": "Violet percebe na hora. Qual pista você usaria?",
+		  "es": "Violet lo sabe enseguida. ¿Qué pista usarías?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The book in your hands.",
+			  "pt": "O livro nas suas mãos.",
+			  "es": "El libro en tus manos."
+			},
+			"ending": {
+			  "en": "A useful clue, until Flora borrows it! Pay attention to the stories we tell too. 💖",
+			  "pt": "Uma boa pista, até Flora pegar emprestado! Preste atenção nas histórias que contamos também. 💖",
+			  "es": "¡Buena pista, hasta que Flora lo pida prestado! Fíjate también en nuestras historias. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Listen to you instead of guessing from appearances.",
+			  "pt": "Escutar você em vez de adivinhar pela aparência.",
+			  "es": "Escucharte en vez de adivinar por la apariencia."
+			},
+			"ending": {
+			  "en": "Exactly. Similar faces, different chapters. Thank you for wanting to know mine. 💕",
+			  "pt": "Exatamente. Rostos parecidos, capítulos diferentes. Obrigada por querer conhecer o meu. 💕",
+			  "es": "Exacto. Rostros parecidos, capítulos distintos. Gracias por querer conocer el mío. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Ask Violet every time.",
+			  "pt": "Perguntar para Violet toda vez.",
+			  "es": "Preguntarle a Violet cada vez."
+			},
+			"ending": {
+			  "en": "Our eldest sister would become a very busy guide! I can introduce myself too.",
+			  "pt": "Nossa irmã mais velha viraria uma guia ocupada! Eu também posso me apresentar.",
+			  "es": "¡Nuestra hermana mayor sería una guía muy ocupada! También puedo presentarme yo."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Let us enjoy the twilight.",
+		  "pt": "Vamos aproveitar o crepúsculo.",
+		  "es": "Disfrutemos del crepúsculo."
+		},
+		"dialogue": {
+		  "en": "The cat has already chosen a seat. What should we do?",
+		  "pt": "O gato já escolheu um lugar. O que fazemos?",
+		  "es": "El gato ya eligió sitio. ¿Qué hacemos?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Count every light in the town.",
+			  "pt": "Contar todas as luzes da cidade.",
+			  "es": "Contar todas las luces de la ciudad."
+			},
+			"ending": {
+			  "en": "We may be here until morning! Let us start with the brightest ones.",
+			  "pt": "Talvez fiquemos até de manhã! Vamos começar pelas mais brilhantes.",
+			  "es": "¡Quizá nos quedemos hasta la mañana! Empecemos por las más brillantes."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Read a page aloud together.",
+			  "pt": "Ler uma página em voz alta juntos.",
+			  "es": "Leer juntos una página en voz alta."
+			},
+			"ending": {
+			  "en": "I will read the narrator, you read the traveler. The cat can judge our performance. 💖",
+			  "pt": "Eu leio o narrador, você lê o viajante. O gato pode avaliar nossa atuação. 💖",
+			  "es": "Yo leo al narrador, tú al viajero. El gato puede juzgar nuestra actuación. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Invent an ending where the traveler finds a friend.",
+			  "pt": "Inventar um final em que o viajante encontra uma amizade.",
+			  "es": "Inventar un final donde el viajero encuentra una amistad."
+			},
+			"ending": {
+			  "en": "My favorite kind of ending. Perhaps this terrace is already the beginning of one. 💕",
+			  "pt": "Meu tipo favorito de final. Talvez esta varanda já seja o começo de um. 💕",
+			  "es": "Mi final favorito. Quizá esta terraza ya sea el comienzo de uno. 💕"
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "quiet_08",
+	"art": "res://content/images/01_Quiet_Moments/08_Marigold Reverie.webp",
+	"name": "Flora",
+	"collection": "Quiet Moments",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "I'm Flora! Clara is my twin, and Violet is our eldest sister. Clara loves a good book; I love finding places that could become one. These marigolds make me want to wander. Join me?",
+	  "pt": "Sou Flora! Clara é minha gêmea, e Violet é nossa irmã mais velha. Clara ama um bom livro; eu amo encontrar lugares que poderiam virar um. Estes cravos-de-defunto me dão vontade de passear. Vem comigo?",
+	  "es": "¡Soy Flora! Clara es mi gemela y Violet, nuestra hermana mayor. Clara adora un buen libro; yo adoro encontrar lugares que podrían convertirse en uno. Estas flores me invitan a pasear. ¿Vienes?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "Where shall we wander?",
+		  "pt": "Por onde vamos passear?",
+		  "es": "¿Por dónde paseamos?"
+		},
+		"dialogue": {
+		  "en": "The fountain, the lemon trees, or somewhere new?",
+		  "pt": "A fonte, os limoeiros ou algum lugar novo?",
+		  "es": "¿La fuente, los limoneros o algún lugar nuevo?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Sit beside the tiled fountain.",
+			  "pt": "Sentar ao lado da fonte de azulejos.",
+			  "es": "Sentarnos junto a la fuente de azulejos."
+			},
+			"ending": {
+			  "en": "Its patterns are beautiful. We can plan our next adventure to the sound of water. 💖",
+			  "pt": "Os desenhos são lindos. Podemos planejar a próxima aventura ao som da água. 💖",
+			  "es": "Sus dibujos son preciosos. Planearemos la próxima aventura al sonido del agua. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Stay exactly where we are.",
+			  "pt": "Ficar exatamente onde estamos.",
+			  "es": "Quedarnos exactamente donde estamos."
+			},
+			"ending": {
+			  "en": "A small pause first, then. Even explorers need a comfortable starting point.",
+			  "pt": "Uma pequena pausa primeiro, então. Até exploradores precisam de um começo confortável.",
+			  "es": "Una pequeña pausa primero, entonces. Hasta los exploradores necesitan un comienzo cómodo."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Follow the flower-lined path and discover its end.",
+			  "pt": "Seguir o caminho de flores e descobrir onde termina.",
+			  "es": "Seguir el sendero de flores y descubrir su final."
+			},
+			"ending": {
+			  "en": "Yes! I love a path with a surprise. My hat is ready; let us go. 💕",
+			  "pt": "Sim! Adoro um caminho com surpresa. Meu chapéu está pronto; vamos. 💕",
+			  "es": "¡Sí! Me encantan los caminos con sorpresas. Mi sombrero está listo; vamos. 💕"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Tell me a twin adventure.",
+		  "pt": "Conte uma aventura das gêmeas.",
+		  "es": "Cuéntame una aventura de las gemelas."
+		},
+		"dialogue": {
+		  "en": "We once swapped hats to fool Violet. What would you have done?",
+		  "pt": "Já trocamos chapéus para enganar Violet. O que você faria?",
+		  "es": "Una vez intercambiamos sombreros para engañar a Violet. ¿Qué harías tú?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Join the joke, then give Violet the first slice of cake.",
+			  "pt": "Entrar na brincadeira e dar a primeira fatia de bolo a Violet.",
+			  "es": "Sumarme a la broma y darle a Violet la primera porción de pastel."
+			},
+			"ending": {
+			  "en": "Perfect! She enjoys our mischief, especially when the peace offering is lemon cake. 💕",
+			  "pt": "Perfeito! Ela gosta das nossas travessuras, ainda mais quando a trégua tem bolo de limão. 💕",
+			  "es": "¡Perfecto! Disfruta nuestras travesuras, sobre todo si la tregua incluye pastel de limón. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Ask whether Clara wrote the plan down.",
+			  "pt": "Perguntar se Clara escreveu o plano.",
+			  "es": "Preguntar si Clara escribió el plan."
+			},
+			"ending": {
+			  "en": "Of course! I brought the hats; she gave our adventure a title. 💖",
+			  "pt": "Claro! Eu levei os chapéus; ela deu um título à aventura. 💖",
+			  "es": "¡Claro! Yo llevé los sombreros; ella le puso título a la aventura. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Draw labels for both hats.",
+			  "pt": "Fazer etiquetas para os dois chapéus.",
+			  "es": "Hacer etiquetas para ambos sombreros."
+			},
+			"ending": {
+			  "en": "That would solve it quickly! Perhaps we should save the labels for windy days.",
+			  "pt": "Isso resolveria rápido! Talvez guardemos as etiquetas para os dias de vento.",
+			  "es": "¡Eso lo resolvería enseguida! Quizá guardemos las etiquetas para los días de viento."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "What makes this garden special?",
+		  "pt": "O que torna este jardim especial?",
+		  "es": "¿Qué hace especial este jardín?"
+		},
+		"dialogue": {
+		  "en": "There are so many bright little details. Which shall we remember?",
+		  "pt": "Há tantos detalhes alegres. Qual vamos guardar na memória?",
+		  "es": "Hay tantos detalles alegres. ¿Cuál recordamos?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "The number of tiles around the fountain.",
+			  "pt": "O número de azulejos ao redor da fonte.",
+			  "es": "El número de azulejos alrededor de la fuente."
+			},
+			"ending": {
+			  "en": "An impressive memory! I would lose count when a butterfly passed by.",
+			  "pt": "Uma memória impressionante! Eu perderia a conta quando passasse uma borboleta.",
+			  "es": "¡Qué memoria! Yo perdería la cuenta cuando pasara una mariposa."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "The route we discovered together.",
+			  "pt": "O caminho que descobrimos juntos.",
+			  "es": "El camino que descubrimos juntos."
+			},
+			"ending": {
+			  "en": "A place becomes special when it holds a shared adventure. Let us find another soon. 💕",
+			  "pt": "Um lugar fica especial quando guarda uma aventura compartilhada. Vamos descobrir outro logo. 💕",
+			  "es": "Un lugar se vuelve especial al guardar una aventura compartida. Descubramos otro pronto. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The orange flowers in your hair.",
+			  "pt": "As flores laranja no seu cabelo.",
+			  "es": "Las flores naranjas de tu pelo."
+			},
+			"ending": {
+			  "en": "A little sunshine to carry with me! Thank you for noticing. 💖",
+			  "pt": "Um pouco de sol para levar comigo! Obrigada por reparar. 💖",
+			  "es": "¡Un poco de sol para llevar conmigo! Gracias por fijarte. 💖"
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "quiet_09",
+	"art": "res://content/images/01_Quiet_Moments/09_Jasmine Afterglow.webp",
+	"name": "Yasmin",
+	"collection": "Quiet Moments",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "Hi, I'm Yasmin. These jasmine flowers remind me of evenings back home. I love exchanging stories about places and people. Want to sit beside me?",
+	  "pt": "Oi, sou Yasmin. Estas flores de jasmim me lembram as tardes lá de casa. Adoro trocar histórias sobre lugares e pessoas. Quer sentar ao meu lado?",
+	  "es": "Hola, soy Yasmin. Estas flores de jazmín me recuerdan las tardes en casa. Me encanta intercambiar historias sobre lugares y personas. ¿Te sientas a mi lado?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "Tell me about home.",
+		  "pt": "Conte sobre sua casa.",
+		  "es": "Cuéntame sobre tu hogar."
+		},
+		"dialogue": {
+		  "en": "What would you like to know first?",
+		  "pt": "O que gostaria de saber primeiro?",
+		  "es": "¿Qué te gustaría saber primero?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "A memory that makes you smile.",
+			  "pt": "Uma lembrança que faz você sorrir.",
+			  "es": "Un recuerdo que te haga sonreír."
+			},
+			"ending": {
+			  "en": "Long conversations on the porch after rain. You asked about my home, not just a postcard. 💕",
+			  "pt": "Conversas compridas na varanda depois da chuva. Você perguntou da minha casa, não só de um cartão-postal. 💕",
+			  "es": "Largas charlas en el porche después de la lluvia. Preguntaste por mi hogar, no solo por una postal. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "The fastest tourist itinerary.",
+			  "pt": "O roteiro turístico mais rápido.",
+			  "es": "El itinerario turístico más rápido."
+			},
+			"ending": {
+			  "en": "There is plenty to see! But leave space between the stops for unexpected stories.",
+			  "pt": "Há muito para conhecer! Mas deixe espaço entre as paradas para histórias inesperadas.",
+			  "es": "¡Hay mucho que conocer! Pero deja espacio entre las paradas para historias inesperadas."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "A favorite place you would show a friend.",
+			  "pt": "Um lugar favorito que mostraria a uma amizade.",
+			  "es": "Un lugar favorito que enseñarías a una amistad."
+			},
+			"ending": {
+			  "en": "A leafy square near home. Small, welcoming, and full of familiar faces. 💖",
+			  "pt": "Uma praça arborizada perto de casa. Pequena, acolhedora e cheia de rostos conhecidos. 💖",
+			  "es": "Una plaza arbolada cerca de casa. Pequeña, acogedora y llena de caras conocidas. 💖"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Let us share an afternoon snack.",
+		  "pt": "Vamos compartilhar um lanche da tarde.",
+		  "es": "Compartamos una merienda."
+		},
+		"dialogue": {
+		  "en": "What shall we bring to our garden table?",
+		  "pt": "O que levamos para nossa mesa no jardim?",
+		  "es": "¿Qué llevamos a nuestra mesa del jardín?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Coffee and warm cheese bread.",
+			  "pt": "Café e pão de queijo quentinho.",
+			  "es": "Café y pan de queso calentito."
+			},
+			"ending": {
+			  "en": "A delicious choice. I will tell you how we made it at home while we eat. 💖",
+			  "pt": "Uma escolha deliciosa. Conto como fazíamos lá em casa enquanto comemos. 💖",
+			  "es": "Una elección deliciosa. Te contaré cómo lo hacíamos en casa mientras comemos. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Your favorite snack, and a favorite of mine to exchange.",
+			  "pt": "Seu lanche favorito e um favorito meu para trocar.",
+			  "es": "Tu merienda favorita y una mía para intercambiar."
+			},
+			"ending": {
+			  "en": "I love that! Two little tastes, two stories. Friendship deserves a shared table. 💕",
+			  "pt": "Adorei! Dois sabores, duas histórias. Uma amizade merece uma mesa compartilhada. 💕",
+			  "es": "¡Me encanta! Dos sabores, dos historias. Una amistad merece una mesa compartida. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Whatever needs the least preparation.",
+			  "pt": "O que der menos trabalho para preparar.",
+			  "es": "Lo que lleve menos trabajo preparar."
+			},
+			"ending": {
+			  "en": "Fruit will do nicely. We can spend the extra time chatting under the jasmine.",
+			  "pt": "Frutas ficam ótimas. Podemos usar o tempo que sobra para conversar sob o jasmim.",
+			  "es": "La fruta estará bien. Podemos usar el tiempo que sobra para charlar bajo el jazmín."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "What shall we remember about this evening?",
+		  "pt": "O que vamos lembrar desta tarde?",
+		  "es": "¿Qué recordamos de esta tarde?"
+		},
+		"dialogue": {
+		  "en": "The light will soon fade. What would you keep?",
+		  "pt": "A luz logo vai desaparecer. O que você guardaria?",
+		  "es": "La luz pronto se apagará. ¿Qué guardarías?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "The exact time the sun disappeared.",
+			  "pt": "A hora exata em que o sol sumiu.",
+			  "es": "La hora exacta en que desapareció el sol."
+			},
+			"ending": {
+			  "en": "A precise souvenir! I might remember the colors better than the clock.",
+			  "pt": "Uma lembrança precisa! Talvez eu lembre mais das cores que do relógio.",
+			  "es": "¡Un recuerdo preciso! Quizá recuerde mejor los colores que el reloj."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The jasmine scent in the warm air.",
+			  "pt": "O perfume de jasmim no ar morno.",
+			  "es": "El perfume del jazmín en el aire cálido."
+			},
+			"ending": {
+			  "en": "Some scents hold entire places. This one will carry a little of our afternoon. 💖",
+			  "pt": "Alguns perfumes guardam lugares inteiros. Este vai levar um pouco da nossa tarde. 💖",
+			  "es": "Algunos perfumes guardan lugares enteros. Este llevará un poco de nuestra tarde. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "The story you trusted me with.",
+			  "pt": "A história que você confiou a mim.",
+			  "es": "La historia que me confiaste."
+			},
+			"ending": {
+			  "en": "Then I am glad I told it. Thank you for listening with such care. 💕",
+			  "pt": "Então fico feliz de ter contado. Obrigada por escutar com tanto carinho. 💕",
+			  "es": "Entonces me alegra haberla contado. Gracias por escuchar con tanto cariño. 💕"
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "quiet_10",
+	"art": "res://content/images/01_Quiet_Moments/10_Sakura Daydream.webp",
+	"name": "Aiko",
+	"collection": "Quiet Moments",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "I'm Aiko. I was taking a walk beneath the cherry blossoms. I like drawing the little changes in this garden; no two walks are quite the same. Shall we explore?",
+	  "pt": "Sou Aiko. Estava passeando sob as cerejeiras. Gosto de desenhar as pequenas mudanças deste jardim; nenhum passeio é exatamente igual ao outro. Vamos explorar?",
+	  "es": "Soy Aiko. Paseaba bajo los cerezos. Me gusta dibujar los pequeños cambios de este jardín; ningún paseo es igual a otro. ¿Exploramos?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "Show me the cherry blossoms.",
+		  "pt": "Mostre as flores de cerejeira.",
+		  "es": "Enséñame las flores del cerezo."
+		},
+		"dialogue": {
+		  "en": "What would you like to do beneath them?",
+		  "pt": "O que gostaria de fazer debaixo delas?",
+		  "es": "¿Qué te gustaría hacer bajo ellas?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Sketch a branch without touching it.",
+			  "pt": "Desenhar um galho sem tocá-lo.",
+			  "es": "Dibujar una rama sin tocarla."
+			},
+			"ending": {
+			  "en": "A lovely way to keep the moment. I have an extra pencil for you. 💖",
+			  "pt": "Um lindo jeito de guardar o momento. Tenho um lápis extra para você. 💖",
+			  "es": "Una hermosa manera de guardar el momento. Tengo un lápiz extra para ti. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Plan the next stop immediately.",
+			  "pt": "Planejar imediatamente a próxima parada.",
+			  "es": "Planear enseguida la siguiente parada."
+			},
+			"ending": {
+			  "en": "We can see the bridge next. Let us give these blossoms a moment first.",
+			  "pt": "Podemos ver a ponte depois. Vamos dar um instante a estas flores primeiro.",
+			  "es": "Podemos ver el puente después. Demos primero un instante a estas flores."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Ask what this place means to you.",
+			  "pt": "Perguntar o que este lugar significa para você.",
+			  "es": "Preguntar qué significa este lugar para ti."
+			},
+			"ending": {
+			  "en": "It reminds me to notice change without rushing it. Thank you for asking about my own story. 💕",
+			  "pt": "Ele me lembra de perceber as mudanças sem apressá-las. Obrigada por perguntar da minha própria história. 💕",
+			  "es": "Me recuerda apreciar los cambios sin apresurarlos. Gracias por preguntar por mi propia historia. 💕"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Let us cross the garden bridge.",
+		  "pt": "Vamos atravessar a ponte do jardim.",
+		  "es": "Crucemos el puente del jardín."
+		},
+		"dialogue": {
+		  "en": "There are petals floating below. What do you see?",
+		  "pt": "Há pétalas flutuando lá embaixo. O que você vê?",
+		  "es": "Hay pétalos flotando abajo. ¿Qué ves?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Tiny journeys, each following its own current.",
+			  "pt": "Pequenas viagens, cada uma seguindo sua corrente.",
+			  "es": "Pequeños viajes, cada uno siguiendo su corriente."
+			},
+			"ending": {
+			  "en": "That is a beautiful thought. Perhaps our walk is a little journey too. 💕",
+			  "pt": "Que pensamento bonito. Talvez nosso passeio também seja uma pequena viagem. 💕",
+			  "es": "Qué pensamiento tan bonito. Quizá nuestro paseo también sea un pequeño viaje. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Pink reflections beside the stone arches.",
+			  "pt": "Reflexos cor-de-rosa junto aos arcos de pedra.",
+			  "es": "Reflejos rosados junto a los arcos de piedra."
+			},
+			"ending": {
+			  "en": "A perfect subject for a sketch. We could draw the same view in different ways. 💖",
+			  "pt": "Um ótimo tema para um desenho. Podemos desenhar a mesma vista de jeitos diferentes. 💖",
+			  "es": "Un tema perfecto para un dibujo. Podemos dibujar la misma vista de maneras distintas. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "A shortcut to the other side.",
+			  "pt": "Um atalho para o outro lado.",
+			  "es": "Un atajo hasta el otro lado."
+			},
+			"ending": {
+			  "en": "A useful bridge indeed! Though its view makes me take the long way willingly.",
+			  "pt": "Uma ponte útil mesmo! Mas a vista me faz escolher o caminho mais longo de bom grado.",
+			  "es": "¡Un puente útil! Aunque su vista me hace elegir con gusto el camino más largo."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Tell me about a place you remember fondly.",
+		  "pt": "Conte sobre um lugar de que você lembra com carinho.",
+		  "es": "Cuéntame sobre un lugar que recuerdes con cariño."
+		},
+		"dialogue": {
+		  "en": "I carry memories of many places. What would you like to hear about?",
+		  "pt": "Guardo lembranças de muitos lugares. O que gostaria de ouvir?",
+		  "es": "Guardo recuerdos de muchos lugares. ¿Qué te gustaría escuchar?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "List every famous landmark.",
+			  "pt": "Liste todos os pontos famosos.",
+			  "es": "Enumera todos los lugares famosos."
+			},
+			"ending": {
+			  "en": "That would take quite a notebook! We can choose a few for a future trip.",
+			  "pt": "Isso ocuparia um caderno inteiro! Podemos escolher alguns para uma viagem futura.",
+			  "es": "¡Eso llenaría un cuaderno! Podemos elegir algunos para un viaje futuro."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "A place you personally miss.",
+			  "pt": "Um lugar de que você sente saudade.",
+			  "es": "Un lugar que tú eches de menos."
+			},
+			"ending": {
+			  "en": "A quiet street where I used to draw with a friend. I am happy to share that memory with you. 💕",
+			  "pt": "Uma rua tranquila onde eu desenhava com uma amiga. Fico feliz de compartilhar essa lembrança com você. 💕",
+			  "es": "Una calle tranquila donde dibujaba con una amiga. Me alegra compartir ese recuerdo contigo. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "A favorite meal to try together someday.",
+			  "pt": "Uma refeição favorita para provarmos juntos um dia.",
+			  "es": "Una comida favorita para probar juntos algún día."
+			},
+			"ending": {
+			  "en": "I would love that. Food tastes even better when there is a story to share. 💖",
+			  "pt": "Adoraria. A comida fica ainda melhor quando há uma história para compartilhar. 💖",
+			  "es": "Me encantaría. La comida sabe aún mejor cuando hay una historia que compartir. 💖"
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "quiet_11",
+	"art": "res://content/images/01_Quiet_Moments/11_Garden_of_Dawn.webp",
+	"name": "Dawn",
+	"collection": "Quiet Moments",
+	"focus": [
+	  0.36,
+	  0.24
+	],
+	"intro": {
+	  "en": "Hello, I'm Dawn! I'm searching for magical fragments scattered across worlds. But the best part of a journey is meeting people along the way. Would you like to join a small adventure?",
+	  "pt": "Olá, sou Aurora! Procuro fragmentos mágicos espalhados entre mundos. Mas a melhor parte de uma viagem é conhecer pessoas pelo caminho. Quer participar de uma pequena aventura?",
+	  "es": "¡Hola, soy Alba! Busco fragmentos mágicos dispersos entre mundos. Pero lo mejor de un viaje es conocer personas por el camino. ¿Te unes a una pequeña aventura?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "How can I help find the fragments?",
+		  "pt": "Como posso ajudar a encontrar os fragmentos?",
+		  "es": "¿Cómo puedo ayudar a encontrar los fragmentos?"
+		},
+		"dialogue": {
+		  "en": "One is floating near the flowers. What shall we do?",
+		  "pt": "Um está flutuando perto das flores. O que fazemos?",
+		  "es": "Uno flota cerca de las flores. ¿Qué hacemos?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Reach it together, taking care of the garden.",
+			  "pt": "Alcançá-lo juntos, cuidando do jardim.",
+			  "es": "Alcanzarlo juntos, cuidando el jardín."
+			},
+			"ending": {
+			  "en": "That is exactly the adventure I hoped for: a discovery that leaves kindness behind. 💕",
+			  "pt": "Era essa a aventura que eu queria: uma descoberta que deixa gentileza pelo caminho. 💕",
+			  "es": "Esa era la aventura que quería: un descubrimiento que deja bondad por el camino. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Wait here and see if it comes closer.",
+			  "pt": "Esperar aqui para ver se ele se aproxima.",
+			  "es": "Esperar aquí a ver si se acerca."
+			},
+			"ending": {
+			  "en": "A little patience may help. I will watch its glow while we enjoy the view.",
+			  "pt": "Um pouco de paciência pode ajudar. Vou observar o brilho enquanto aproveitamos a vista.",
+			  "es": "Un poco de paciencia puede ayudar. Observaré su brillo mientras disfrutamos de la vista."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Sketch where it appears on a map.",
+			  "pt": "Marcar onde ele aparece num mapa.",
+			  "es": "Marcar dónde aparece en un mapa."
+			},
+			"ending": {
+			  "en": "A useful clue for the next traveler! Thank you for helping me remember the way. 💖",
+			  "pt": "Uma boa pista para o próximo viajante! Obrigada por me ajudar a lembrar o caminho. 💖",
+			  "es": "¡Una buena pista para el próximo viajero! Gracias por ayudarme a recordar el camino. 💖"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Where will your next journey lead?",
+		  "pt": "Aonde será sua próxima viagem?",
+		  "es": "¿Adónde será tu próximo viaje?"
+		},
+		"dialogue": {
+		  "en": "There is a shimmering doorway beyond the terrace. Shall we plan our first step?",
+		  "pt": "Há uma passagem brilhante além da varanda. Vamos planejar o primeiro passo?",
+		  "es": "Hay un portal brillante más allá de la terraza. ¿Planeamos el primer paso?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Pack a map and something to eat.",
+			  "pt": "Levar um mapa e algo para comer.",
+			  "es": "Llevar un mapa y algo para comer."
+			},
+			"ending": {
+			  "en": "Excellent! Even magical journeys need a snack. I will carry the lantern. 💖",
+			  "pt": "Excelente! Até viagens mágicas precisam de um lanche. Eu levo a lanterna. 💖",
+			  "es": "¡Excelente! Hasta los viajes mágicos necesitan una merienda. Yo llevo la linterna. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Promise to help anyone we meet along the way.",
+			  "pt": "Prometer ajudar quem encontrarmos pelo caminho.",
+			  "es": "Prometer ayudar a quien encontremos por el camino."
+			},
+			"ending": {
+			  "en": "Then I already have my favorite traveling companion. Let us discover a world and make it warmer. 💕",
+			  "pt": "Então já tenho minha companhia de viagem favorita. Vamos descobrir um mundo e torná-lo mais acolhedor. 💕",
+			  "es": "Entonces ya tengo mi compañía de viaje favorita. Descubramos un mundo y hagámoslo más acogedor. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Choose a destination only from its pretty colors.",
+			  "pt": "Escolher o destino só pelas cores bonitas.",
+			  "es": "Elegir el destino solo por sus colores bonitos."
+			},
+			"ending": {
+			  "en": "They are tempting, are not they? Let us also ask what lies beyond before we step through.",
+			  "pt": "São tentadoras, não? Vamos também descobrir o que há do outro lado antes de atravessar.",
+			  "es": "Son tentadores, ¿verdad? Averigüemos también qué hay al otro lado antes de cruzar."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "What is your favorite treasure?",
+		  "pt": "Qual é seu tesouro favorito?",
+		  "es": "¿Cuál es tu tesoro favorito?"
+		},
+		"dialogue": {
+		  "en": "I have seen castles, crystals, and wonderful gardens. What would you keep?",
+		  "pt": "Vi castelos, cristais e jardins maravilhosos. O que você guardaria?",
+		  "es": "He visto castillos, cristales y jardines maravillosos. ¿Qué guardarías?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "The largest shining crystal.",
+			  "pt": "O maior cristal brilhante.",
+			  "es": "El cristal brillante más grande."
+			},
+			"ending": {
+			  "en": "It would be beautiful! Perhaps a little heavy for my traveling bag, though.",
+			  "pt": "Seria lindo! Talvez um pouco pesado para minha bolsa de viagem.",
+			  "es": "¡Sería precioso! Aunque quizá algo pesado para mi bolsa de viaje."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "A fragment from every world.",
+			  "pt": "Um fragmento de cada mundo.",
+			  "es": "Un fragmento de cada mundo."
+			},
+			"ending": {
+			  "en": "Each one holds a memory. I would love to show you where they came from. 💖",
+			  "pt": "Cada um guarda uma lembrança. Adoraria mostrar de onde vieram. 💖",
+			  "es": "Cada uno guarda un recuerdo. Me encantaría enseñarte de dónde vinieron. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "The friendships you bring home.",
+			  "pt": "As amizades que você traz para casa.",
+			  "es": "Las amistades que llevas a casa."
+			},
+			"ending": {
+			  "en": "Yes. The fragments brought me here, but people make every world worth visiting. You are part of that now. 💕",
+			  "pt": "Sim. Os fragmentos me trouxeram aqui, mas as pessoas fazem cada mundo valer a visita. Agora você faz parte disso. 💕",
+			  "es": "Sí. Los fragmentos me trajeron aquí, pero las personas hacen que cada mundo merezca la visita. Ahora tú formas parte de eso. 💕"
+			}
+		  }
+		]
+	  }
+	],
+	"display_name": {
+	  "en": "Dawn",
+	  "pt": "Aurora",
+	  "es": "Alba"
+	}
+  },
+  {
+	"id": "quiet_12",
+	"art": "res://content/images/01_Quiet_Moments/12_Rosewater_Reverie.webp",
+	"name": "Rosa",
+	"collection": "Quiet Moments",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "I'm Rosa… hello. I was resting among the roses. I'm a little shy at first, but I enjoy gentle conversations. You can sit here, if you like.",
+	  "pt": "Sou Rosa… olá. Estava descansando entre as rosas. Sou um pouco tímida no começo, mas gosto de conversas tranquilas. Pode se sentar aqui, se quiser.",
+	  "es": "Soy Rosa… hola. Descansaba entre las rosas. Soy un poco tímida al principio, pero me gustan las conversaciones tranquilas. Puedes sentarte aquí, si quieres."
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "May I keep you company?",
+		  "pt": "Posso fazer companhia?",
+		  "es": "¿Puedo acompañarte?"
+		},
+		"dialogue": {
+		  "en": "Yes… how shall we begin?",
+		  "pt": "Sim… como começamos?",
+		  "es": "Sí… ¿cómo empezamos?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Ask about the roses you like.",
+			  "pt": "Perguntar sobre as rosas de que você gosta.",
+			  "es": "Preguntar por las rosas que te gustan."
+			},
+			"ending": {
+			  "en": "The pale pink ones. Their petals look like tiny folded letters. Thank you for asking. 💖",
+			  "pt": "As rosa-claras. As pétalas parecem pequenas cartas dobradas. Obrigada por perguntar. 💖",
+			  "es": "Las rosas claras. Sus pétalos parecen pequeñas cartas dobladas. Gracias por preguntar. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Sit nearby and let the conversation come naturally.",
+			  "pt": "Sentar perto e deixar a conversa surgir naturalmente.",
+			  "es": "Sentarme cerca y dejar que la conversación surja sola."
+			},
+			"ending": {
+			  "en": "That feels comfortable. I think I have a little story I would like to tell you. 💕",
+			  "pt": "Assim fico à vontade. Acho que tenho uma pequena história que gostaria de contar. 💕",
+			  "es": "Así me siento cómoda. Creo que tengo una pequeña historia que me gustaría contarte. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Suggest a big group photo right away.",
+			  "pt": "Sugerir uma grande foto em grupo logo de cara.",
+			  "es": "Proponer enseguida una gran foto de grupo."
+			},
+			"ending": {
+			  "en": "Perhaps another day? For now, I would rather get to know you here.",
+			  "pt": "Talvez outro dia? Por enquanto, prefiro conhecer você aqui.",
+			  "es": "¿Quizá otro día? Por ahora, prefiero conocerte aquí."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "What do you enjoy doing here?",
+		  "pt": "O que gosta de fazer aqui?",
+		  "es": "¿Qué te gusta hacer aquí?"
+		},
+		"dialogue": {
+		  "en": "Sometimes I write little notes, but I rarely show them.",
+		  "pt": "Às vezes escrevo pequenos bilhetes, mas quase nunca mostro.",
+		  "es": "A veces escribo pequeñas notas, pero casi nunca las enseño."
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Suggest reading every note to the whole garden.",
+			  "pt": "Sugerir ler todos os bilhetes para o jardim inteiro.",
+			  "es": "Proponer leer todas las notas a todo el jardín."
+			},
+			"ending": {
+			  "en": "That would be a big step! Maybe I can start with just one, another afternoon.",
+			  "pt": "Seria um grande passo! Talvez eu comece com um só, em outra tarde.",
+			  "es": "¡Sería un gran paso! Quizá empiece con una sola, otra tarde."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Offer a pretty notebook for future ideas.",
+			  "pt": "Oferecer um caderno bonito para ideias futuras.",
+			  "es": "Ofrecer un cuaderno bonito para ideas futuras."
+			},
+			"ending": {
+			  "en": "How kind. I could keep a pressed petal between its pages. 💖",
+			  "pt": "Que gentileza. Posso guardar uma pétala seca entre as páginas. 💖",
+			  "es": "Qué detalle. Podría guardar un pétalo seco entre sus páginas. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Say you would love to listen whenever she feels ready.",
+			  "pt": "Dizer que adoraria ouvir quando ela se sentir pronta.",
+			  "es": "Decir que te encantaría escuchar cuando se sienta preparada."
+			},
+			"ending": {
+			  "en": "Thank you for not rushing me. Here is a short one, about finding company among roses. 💕",
+			  "pt": "Obrigada por não me apressar. Aqui vai um curtinho, sobre encontrar companhia entre rosas. 💕",
+			  "es": "Gracias por no apresurarme. Aquí va una breve, sobre encontrar compañía entre rosas. 💕"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Shall we take a little walk?",
+		  "pt": "Vamos dar uma pequena volta?",
+		  "es": "¿Damos un pequeño paseo?"
+		},
+		"dialogue": {
+		  "en": "I would like that. Which path shall we choose?",
+		  "pt": "Eu gostaria. Que caminho escolhemos?",
+		  "es": "Me gustaría. ¿Qué camino elegimos?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "The quiet path, at a pace comfortable for both of us.",
+			  "pt": "O caminho tranquilo, num ritmo bom para nós dois.",
+			  "es": "El sendero tranquilo, a un ritmo cómodo para ambos."
+			},
+			"ending": {
+			  "en": "That sounds lovely. I am already feeling less shy with you beside me. 💕",
+			  "pt": "Parece ótimo. Já estou me sentindo menos tímida com você ao meu lado. 💕",
+			  "es": "Suena muy bien. Ya me siento menos tímida contigo a mi lado. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "The busiest terrace, to meet everybody at once.",
+			  "pt": "A varanda mais cheia, para conhecer todo mundo de uma vez.",
+			  "es": "La terraza más concurrida, para conocer a todos de golpe."
+			},
+			"ending": {
+			  "en": "So many introductions! Could we begin with the little garden path instead?",
+			  "pt": "Tantas apresentações! Podemos começar pelo caminho do jardim?",
+			  "es": "¡Cuántas presentaciones! ¿Podemos empezar por el sendero del jardín?"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The rose arbor nearby.",
+			  "pt": "O arco de rosas logo ali.",
+			  "es": "El arco de rosas cercano."
+			},
+			"ending": {
+			  "en": "A beautiful choice. I know a spot there where the light falls through the petals. 💖",
+			  "pt": "Uma linda escolha. Conheço um lugar onde a luz atravessa as pétalas. 💖",
+			  "es": "Una elección preciosa. Conozco un sitio donde la luz atraviesa los pétalos. 💖"
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "golden_01",
+	"collection": "Golden Tides",
+	"art": "res://content/images/02_Golden_Tides/01_Lavender Shore.webp",
+	"name": "Violet",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "Look who found me again! I traded the greenhouse for sea air, but kept my lavender-colored afternoons. Clara and Flora are exploring nearby. Shall we make another memory?",
+	  "pt": "Olha quem me encontrou de novo! Troquei a estufa pela brisa do mar, mas trouxe comigo as tardes de lavanda. Clara e Flora estão explorando por perto. Vamos criar outra lembrança?",
+	  "es": "¡Mira quién me encontró otra vez! Cambié el invernadero por la brisa del mar, pero traje mis tardes de lavanda. Clara y Flora están explorando cerca. ¿Creamos otro recuerdo?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "That bikini suits this shore.",
+		  "pt": "Esse biquíni combina com esta praia.",
+		  "es": "Ese bikini combina con esta playa."
+		},
+		"dialogue": {
+		  "en": "I picked this soft green myself. What do you think?",
+		  "pt": "Escolhi esse verde suave. O que achou?",
+		  "es": "Elegí yo este verde suave. ¿Qué te parece?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The color looks lovely on you.",
+			  "pt": "A cor ficou linda em você.",
+			  "es": "El color te queda precioso."
+			},
+			"ending": {
+			  "en": "Thank you! I wanted something as light as the breeze. 💖",
+			  "pt": "Obrigada! Queria algo leve como a brisa. 💖",
+			  "es": "¡Gracias! Quería algo ligero como la brisa. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Now the sea has competition for the prettiest view.",
+			  "pt": "Agora o mar tem concorrência pela vista mais bonita.",
+			  "es": "Ahora el mar tiene competencia por la vista más bonita."
+			},
+			"ending": {
+			  "en": "Ha! Careful, the sea might splash you for that. You still know how to make me laugh! 💕",
+			  "pt": "Ha! Cuidado, o mar pode espirrar água em você por isso. Você ainda sabe me fazer rir! 💕",
+			  "es": "¡Ja! Cuidado, el mar podría salpicarte por eso. ¡Sigues sabiendo hacerme reír! 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Let us rate every swimsuit on the beach.",
+			  "pt": "Vamos dar notas a todos os trajes da praia.",
+			  "es": "Puntuemos todos los bañadores de la playa."
+			},
+			"ending": {
+			  "en": "I would rather enjoy our own afternoon. Nobody needs a score to have fun here.",
+			  "pt": "Prefiro aproveitar nossa tarde. Ninguém precisa de nota para se divertir aqui.",
+			  "es": "Prefiero disfrutar de nuestra tarde. Nadie necesita una nota para divertirse aquí."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Did the twins come too?",
+		  "pt": "As gêmeas também vieram?",
+		  "es": "¿También vinieron las gemelas?"
+		},
+		"dialogue": {
+		  "en": "They promised not to steal my picnic cake. Shall we believe them?",
+		  "pt": "Prometeram não roubar meu bolo do piquenique. Vamos acreditar?",
+		  "es": "Prometieron no robar mi pastel del pícnic. ¿Las creemos?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Three forks again. I remember our peace treaty!",
+			  "pt": "Três garfos de novo. Lembro do nosso tratado de paz!",
+			  "es": "Tres tenedores otra vez. ¡Recuerdo nuestro tratado de paz!"
+			},
+			"ending": {
+			  "en": "You remembered! I saved you a place on my side of the blanket. 💕",
+			  "pt": "Você lembrou! Guardei um lugar para você do meu lado da toalha. 💕",
+			  "es": "¡Lo recordaste! Te guardé un sitio a mi lado de la manta. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Bring enough cake for everyone.",
+			  "pt": "Trazer bolo suficiente para todo mundo.",
+			  "es": "Traer pastel suficiente para todos."
+			},
+			"ending": {
+			  "en": "A generous plan. My sisters will declare you guest of honor. 💖",
+			  "pt": "Um plano generoso. Minhas irmãs vão declarar você convidado de honra. 💖",
+			  "es": "Un plan generoso. Mis hermanas te declararán invitado de honor. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Hide the cake until tomorrow.",
+			  "pt": "Esconder o bolo até amanhã.",
+			  "es": "Esconder el pastel hasta mañana."
+			},
+			"ending": {
+			  "en": "Then today needs a new snack! A peach will do while we decide.",
+			  "pt": "Então hoje precisa de outro lanche! Um pêssego serve enquanto decidimos.",
+			  "es": "¡Entonces hoy necesita otra merienda! Un melocotón servirá mientras decidimos."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Let us walk along the flowers.",
+		  "pt": "Vamos passear entre as flores.",
+		  "es": "Paseemos entre las flores."
+		},
+		"dialogue": {
+		  "en": "The path leads to a little cove. How shall we explore?",
+		  "pt": "O caminho leva a uma enseada. Como vamos explorar?",
+		  "es": "El sendero lleva a una cala. ¿Cómo exploramos?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Follow the shortest route without stopping.",
+			  "pt": "Seguir o caminho mais curto sem parar.",
+			  "es": "Seguir la ruta más corta sin parar."
+			},
+			"ending": {
+			  "en": "We will reach the water quickly. Perhaps we can admire the flowers on the way back.",
+			  "pt": "Chegaremos rápido à água. Talvez admiremos as flores na volta.",
+			  "es": "Llegaremos pronto al agua. Quizá admiremos las flores a la vuelta."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Ask the seagull for directions, like the garden cat.",
+			  "pt": "Pedir informações à gaivota, como fizemos com o gato.",
+			  "es": "Pedir indicaciones a la gaviota, como al gato del jardín."
+			},
+			"ending": {
+			  "en": "Another very important manager! Let us hope this one accepts compliments instead of our lunch. 💕",
+			  "pt": "Outro gerente importantíssimo! Espero que este aceite elogios em vez do nosso almoço. 💕",
+			  "es": "¡Otro encargado importantísimo! Espero que acepte cumplidos en vez de nuestro almuerzo. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Take our time and enjoy the sea breeze.",
+			  "pt": "Ir sem pressa e aproveitar a brisa.",
+			  "es": "Ir sin prisas y disfrutar de la brisa."
+			},
+			"ending": {
+			  "en": "A lovely choice. I like having you beside me in both gardens and shores. 💖",
+			  "pt": "Uma bela escolha. Gosto de ter você ao meu lado nos jardins e nas praias. 💖",
+			  "es": "Una buena elección. Me gusta tenerte a mi lado en jardines y playas. 💖"
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "golden_02",
+	"collection": "Golden Tides",
+	"art": "res://content/images/02_Golden_Tides/02_Moonlit Tide.webp",
+	"name": "Selene",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "It's lovely to see you again. Tonight the waves are keeping the rhythm while my harp rests. The lanterns make this shore feel like our old terrace. Will you stay a while?",
+	  "pt": "Que bom rever você. Hoje as ondas marcam o ritmo enquanto minha harpa descansa. As lanternas fazem esta praia lembrar nossa varanda. Fica um pouco?",
+	  "es": "Qué alegría volver a verte. Hoy las olas marcan el ritmo mientras mi arpa descansa. Las farolas hacen que esta playa recuerde nuestra terraza. ¿Te quedas un rato?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "Your bikini has moonlit colors.",
+		  "pt": "Seu biquíni tem as cores do luar.",
+		  "es": "Tu bikini tiene los colores de la luna."
+		},
+		"dialogue": {
+		  "en": "I liked the violet petals in its pattern. Did you notice them?",
+		  "pt": "Gostei das pétalas violetas da estampa. Você reparou?",
+		  "es": "Me gustaron los pétalos violetas del estampado. ¿Los notaste?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Yes. They look like notes from your melody.",
+			  "pt": "Sim. Parecem notas da sua melodia.",
+			  "es": "Sí. Parecen notas de tu melodía."
+			},
+			"ending": {
+			  "en": "You found music in the flowers again. That is a compliment I will remember. 💕",
+			  "pt": "Você encontrou música nas flores de novo. Esse elogio vou guardar. 💕",
+			  "es": "Encontraste música en las flores otra vez. Recordaré ese cumplido. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Let us make a loud speech about it.",
+			  "pt": "Vamos fazer um discurso bem alto sobre ele.",
+			  "es": "Hagamos un discurso muy ruidoso sobre él."
+			},
+			"ending": {
+			  "en": "A whisper suits this shore better. The waves have already taken the stage.",
+			  "pt": "Um sussurro combina mais com esta praia. As ondas já ocuparam o palco.",
+			  "es": "Un susurro combina mejor con esta playa. Las olas ya ocuparon el escenario."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The violet looks beautiful on you.",
+			  "pt": "O violeta ficou lindo em você.",
+			  "es": "El violeta te queda precioso."
+			},
+			"ending": {
+			  "en": "Thank you. It reminds me of the wisteria beside my harp. 💖",
+			  "pt": "Obrigada. Ele me lembra as flores ao lado da minha harpa. 💖",
+			  "es": "Gracias. Me recuerda las flores junto a mi arpa. 💖"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Do you remember our unfinished song?",
+		  "pt": "Lembra da nossa canção incompleta?",
+		  "es": "¿Recuerdas nuestra canción incompleta?"
+		},
+		"dialogue": {
+		  "en": "Of course. What could its next verse be?",
+		  "pt": "Claro. Qual poderia ser o próximo verso?",
+		  "es": "Claro. ¿Cuál podría ser su siguiente verso?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Lanterns guiding a traveler along the shore.",
+			  "pt": "Lanternas guiando um viajante pela praia.",
+			  "es": "Farolas guiando a un viajero por la playa."
+			},
+			"ending": {
+			  "en": "A warm little verse. We have brought our story all the way to the sea. 💖",
+			  "pt": "Um verso acolhedor. Trouxemos nossa história até o mar. 💖",
+			  "es": "Un verso acogedor. Trajimos nuestra historia hasta el mar. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Two friends leave a pause for the waves.",
+			  "pt": "Duas amizades deixam uma pausa para as ondas.",
+			  "es": "Dos amigos dejan una pausa para las olas."
+			},
+			"ending": {
+			  "en": "You remember how much I love listening. Our silence has become part of the song. 💕",
+			  "pt": "Você lembra como gosto de escutar. Nosso silêncio virou parte da canção. 💕",
+			  "es": "Recuerdas cuánto me gusta escuchar. Nuestro silencio se volvió parte de la canción. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "A whole orchestra drowns out the surf.",
+			  "pt": "Uma orquestra inteira cobre o som do mar.",
+			  "es": "Una orquesta entera tapa el sonido del mar."
+			},
+			"ending": {
+			  "en": "A grand finale for another evening! Tonight I would rather keep the waves in the music.",
+			  "pt": "Um grande final para outra noite! Hoje prefiro manter as ondas na música.",
+			  "es": "¡Un gran final para otra noche! Hoy prefiero mantener las olas en la música."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Where shall we watch the moon?",
+		  "pt": "De onde vamos observar a lua?",
+		  "es": "¿Desde dónde miramos la luna?"
+		},
+		"dialogue": {
+		  "en": "The little dock has a beautiful view. What would you look for?",
+		  "pt": "O pequeno cais tem uma vista linda. O que você procuraria?",
+		  "es": "El pequeño muelle tiene una vista preciosa. ¿Qué buscarías?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "The quickest route back to town.",
+			  "pt": "O caminho mais rápido de volta à cidade.",
+			  "es": "La ruta más rápida de vuelta a la ciudad."
+			},
+			"ending": {
+			  "en": "We can return whenever you like. Let us keep one moment of this view first.",
+			  "pt": "Podemos voltar quando quiser. Vamos guardar um instante desta vista primeiro.",
+			  "es": "Podemos volver cuando quieras. Guardemos primero un instante de esta vista."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The lanterns reflected in the water.",
+			  "pt": "As lanternas refletidas na água.",
+			  "es": "Las farolas reflejadas en el agua."
+			},
+			"ending": {
+			  "en": "Like little golden strings across the sea. You notice lovely details. 💖",
+			  "pt": "Como pequenas cordas douradas sobre o mar. Você percebe detalhes lindos. 💖",
+			  "es": "Como pequeñas cuerdas doradas sobre el mar. Notas detalles hermosos. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "A place to share the view without rushing.",
+			  "pt": "Um lugar para compartilhar a vista sem pressa.",
+			  "es": "Un lugar para compartir la vista sin prisas."
+			},
+			"ending": {
+			  "en": "Then stay beside me. A familiar friend makes even a new shore feel peaceful. 💕",
+			  "pt": "Então fique ao meu lado. Uma amizade conhecida torna tranquila até uma praia nova. 💕",
+			  "es": "Entonces quédate a mi lado. Una amistad conocida vuelve tranquila hasta una playa nueva. 💕"
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "golden_03",
+	"collection": "Golden Tides",
+	"art": "res://content/images/02_Golden_Tides/03_Azure Sketches.webp",
+	"name": "Marina",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "A new corner of the harbor, and a familiar face! Remember our watercolor afternoon? I brought the sketchbook to the beach. Today I want to find something nobody else would think to paint.",
+	  "pt": "Um novo cantinho do porto e um rosto conhecido! Lembra da nossa tarde de aquarela? Trouxe o caderno para a praia. Hoje quero descobrir algo que ninguém mais pensaria em pintar.",
+	  "es": "¡Un nuevo rincón del puerto y un rostro conocido! ¿Recuerdas nuestra tarde de acuarela? Traje el cuaderno a la playa. Hoy quiero encontrar algo que nadie más pensaría pintar."
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "About your bikini…",
+		  "pt": "Sobre seu biquíni…",
+		  "es": "Sobre tu bikini…"
+		},
+		"dialogue": {
+		  "en": "The color matches my warm paints. But tell me what you have in mind.",
+		  "pt": "A cor combina com minhas tintas quentes. Mas conte o que tem em mente.",
+		  "es": "El color combina con mis pinturas cálidas. Pero cuéntame qué tienes en mente."
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "It looks beautiful on you.",
+			  "pt": "Ficou lindo em você.",
+			  "es": "Te queda precioso."
+			},
+			"ending": {
+			  "en": "Thank you! Today I am more curious about what we can create than how I look. Shall we open the sketchbook?",
+			  "pt": "Obrigada! Hoje estou mais curiosa pelo que podemos criar do que pela minha aparência. Vamos abrir o caderno?",
+			  "es": "¡Gracias! Hoy me interesa más lo que podemos crear que mi aspecto. ¿Abrimos el cuaderno?"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The sunset is jealous of those colors!",
+			  "pt": "O pôr do sol ficou com ciúmes dessas cores!",
+			  "es": "¡La puesta de sol tiene celos de esos colores!"
+			},
+			"ending": {
+			  "en": "A colorful joke! I will save it for a painting title. Now, let us find a subject beyond my swimsuit. 💖",
+			  "pt": "Uma brincadeira colorida! Vou guardar para um título de pintura. Agora, vamos encontrar um tema além do meu biquíni. 💖",
+			  "es": "¡Una broma colorida! La guardaré como título de un cuadro. Ahora busquemos un tema más allá de mi bikini. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "You brought your palette into your outfit.",
+			  "pt": "Você trouxe a paleta para o seu traje.",
+			  "es": "Trajiste tu paleta a tu ropa."
+			},
+			"ending": {
+			  "en": "Perhaps I did. But the best colors are still waiting out there, on the water.",
+			  "pt": "Talvez sim. Mas as melhores cores ainda estão esperando lá fora, na água.",
+			  "es": "Quizá sí. Pero los mejores colores siguen esperando ahí fuera, en el agua."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "What shall we paint this time?",
+		  "pt": "O que vamos pintar desta vez?",
+		  "es": "¿Qué pintamos esta vez?"
+		},
+		"dialogue": {
+		  "en": "No copies today. Give me an unexpected idea!",
+		  "pt": "Hoje nada de cópias. Me dê uma ideia inesperada!",
+		  "es": "Hoy nada de copias. ¡Dame una idea inesperada!"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "A harbor imagined by our cat, with fish-shaped boats.",
+			  "pt": "Um porto imaginado pelo nosso gato, com barcos-peixe.",
+			  "es": "Un puerto imaginado por nuestro gato, con barcos-pez."
+			},
+			"ending": {
+			  "en": "You remembered! Let us finally paint that ridiculous, wonderful little fleet. 💕",
+			  "pt": "Você lembrou! Vamos finalmente pintar aquela frota absurda e maravilhosa. 💕",
+			  "es": "¡Lo recordaste! Pintemos por fin aquella flota absurda y maravillosa. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The colored shadows beneath the little boats.",
+			  "pt": "As sombras coloridas sob os barquinhos.",
+			  "es": "Las sombras de colores bajo las barquitas."
+			},
+			"ending": {
+			  "en": "Lovely! There are hidden colors in every ripple. Come sit beside the palette. 💖",
+			  "pt": "Lindo! Há cores escondidas em cada ondulação. Venha sentar ao lado da paleta. 💖",
+			  "es": "¡Precioso! Hay colores escondidos en cada ondulación. Ven a sentarte junto a la paleta. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "A precise copy of yesterday’s picture.",
+			  "pt": "Uma cópia exata da pintura de ontem.",
+			  "es": "Una copia exacta del cuadro de ayer."
+			},
+			"ending": {
+			  "en": "We can practice that later. This beach deserves at least one new idea of its own.",
+			  "pt": "Podemos praticar depois. Esta praia merece pelo menos uma ideia nova só dela.",
+			  "es": "Podemos practicar después. Esta playa merece al menos una idea nueva propia."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Let us find a new harbor story.",
+		  "pt": "Vamos descobrir outra história do porto.",
+		  "es": "Descubramos otra historia del puerto."
+		},
+		"dialogue": {
+		  "en": "Which detail deserves a page in our sketchbook?",
+		  "pt": "Qual detalhe merece uma página do nosso caderno?",
+		  "es": "¿Qué detalle merece una página de nuestro cuaderno?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The blanket, paints, and picnic beside us.",
+			  "pt": "A toalha, as tintas e o piquenique ao nosso lado.",
+			  "es": "La manta, las pinturas y el pícnic a nuestro lado."
+			},
+			"ending": {
+			  "en": "Our little traveling studio! I like that you noticed what makes this afternoon ours. 💖",
+			  "pt": "Nosso pequeno ateliê viajante! Gostei de você perceber o que faz esta tarde ser nossa. 💖",
+			  "es": "¡Nuestro pequeño taller viajero! Me gusta que notes lo que hace nuestra esta tarde. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Only the biggest building in sight.",
+			  "pt": "Só o maior prédio à vista.",
+			  "es": "Solo el edificio más grande a la vista."
+			},
+			"ending": {
+			  "en": "It is impressive. Perhaps we can also find a tiny detail hiding in its shadow.",
+			  "pt": "É impressionante. Talvez encontremos um pequeno detalhe escondido na sombra dele também.",
+			  "es": "Es impresionante. Quizá encontremos también un pequeño detalle escondido en su sombra."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Ask who painted the worn name on the smallest boat.",
+			  "pt": "Perguntar quem pintou o nome gasto do menor barco.",
+			  "es": "Preguntar quién pintó el nombre gastado de la barca más pequeña."
+			},
+			"ending": {
+			  "en": "Exactly the kind of curiosity I love. Behind that faded paint, there must be a story. 💕",
+			  "pt": "É esse tipo de curiosidade que adoro. Atrás daquela tinta gasta deve haver uma história. 💕",
+			  "es": "Ese es el tipo de curiosidad que adoro. Detrás de esa pintura gastada debe haber una historia. 💕"
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "golden_04",
+	"collection": "Golden Tides",
+	"art": "res://content/images/02_Golden_Tides/04_Emerald_Cove.webp",
+	"name": "Iris",
+	"focus": [
+	  0.4,
+	  0.23
+	],
+	"intro": {
+	  "en": "I found a quiet cove, with flowers, lemon trees, and enough shade for tea. It feels like the garden has followed us to the sea. Shall we enjoy it together?",
+	  "pt": "Encontrei uma enseada tranquila, com flores, limoeiros e sombra suficiente para um chá. Parece que o jardim veio conosco até o mar. Vamos aproveitar juntos?",
+	  "es": "Encontré una cala tranquila, con flores, limoneros y sombra suficiente para un té. Parece que el jardín vino con nosotros hasta el mar. ¿La disfrutamos juntos?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "That emerald bikini suits you.",
+		  "pt": "Esse biquíni esmeralda combina com você.",
+		  "es": "Ese bikini esmeralda te queda bien."
+		},
+		"dialogue": {
+		  "en": "I like carrying a little of the garden with me. What caught your eye?",
+		  "pt": "Gosto de levar um pouco do jardim comigo. O que chamou sua atenção?",
+		  "es": "Me gusta llevar un poco del jardín conmigo. ¿Qué te llamó la atención?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The green is beautiful beside the blue sea.",
+			  "pt": "O verde ficou lindo junto ao azul do mar.",
+			  "es": "El verde queda precioso junto al azul del mar."
+			},
+			"ending": {
+			  "en": "Thank you. Two of my favorite colors, sharing one peaceful afternoon. 💖",
+			  "pt": "Obrigada. Duas das minhas cores favoritas numa tarde tranquila. 💖",
+			  "es": "Gracias. Dos de mis colores favoritos en una tarde tranquila. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "We should turn it into a fashion competition.",
+			  "pt": "Devíamos transformar isso numa competição de moda.",
+			  "es": "Deberíamos convertirlo en un concurso de moda."
+			},
+			"ending": {
+			  "en": "I am happier without a contest. There is room for everyone to feel comfortable here.",
+			  "pt": "Fico mais feliz sem competição. Aqui há espaço para todo mundo se sentir à vontade.",
+			  "es": "Soy más feliz sin concursos. Aquí hay sitio para que todos se sientan cómodos."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "The garden sent its prettiest shade on holiday.",
+			  "pt": "O jardim mandou seu tom mais bonito passear.",
+			  "es": "El jardín envió su tono más bonito de vacaciones."
+			},
+			"ending": {
+			  "en": "That made me smile. Apparently even my favorite green wanted a day at the beach! 💕",
+			  "pt": "Isso me fez sorrir. Parece que até meu verde favorito queria um dia de praia! 💕",
+			  "es": "Eso me hizo sonreír. ¡Parece que hasta mi verde favorito quería un día de playa! 💕"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Shall we have tea by the sea?",
+		  "pt": "Vamos tomar chá à beira-mar?",
+		  "es": "¿Tomamos té junto al mar?"
+		},
+		"dialogue": {
+		  "en": "There are fresh lemons nearby. What shall we prepare?",
+		  "pt": "Há limões frescos por perto. O que preparamos?",
+		  "es": "Hay limones frescos cerca. ¿Qué preparamos?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Something refreshing, and time to enjoy it together.",
+			  "pt": "Algo refrescante e tempo para aproveitar juntos.",
+			  "es": "Algo refrescante y tiempo para disfrutarlo juntos."
+			},
+			"ending": {
+			  "en": "You still know what makes an afternoon special. We can leave the rest of the day unplanned. 💕",
+			  "pt": "Você ainda sabe o que torna uma tarde especial. Podemos deixar o resto do dia sem planos. 💕",
+			  "es": "Sigues sabiendo qué hace especial una tarde. Podemos dejar el resto del día sin planes. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Iced tea with a little lemon.",
+			  "pt": "Chá gelado com um pouco de limão.",
+			  "es": "Té frío con un poco de limón."
+			},
+			"ending": {
+			  "en": "A lovely idea. I will bring two glasses and a spot in the shade. 💖",
+			  "pt": "Uma ótima ideia. Vou buscar dois copos e um lugar à sombra. 💖",
+			  "es": "Una idea estupenda. Buscaré dos vasos y un lugar a la sombra. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "A complicated recipe with a strict timetable.",
+			  "pt": "Uma receita complicada com horário bem rígido.",
+			  "es": "Una receta complicada con un horario estricto."
+			},
+			"ending": {
+			  "en": "An ambitious tea! Perhaps today we can keep it simple and listen to the water instead.",
+			  "pt": "Um chá ambicioso! Talvez hoje possamos simplificar e escutar a água.",
+			  "es": "¡Un té ambicioso! Quizá hoy podamos simplificar y escuchar el agua."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "What little detail shall we notice today?",
+		  "pt": "Que pequeno detalhe vamos observar hoje?",
+		  "es": "¿Qué pequeño detalle observamos hoy?"
+		},
+		"dialogue": {
+		  "en": "Remember the resting butterfly? This shore has its own quiet surprises.",
+		  "pt": "Lembra da borboleta descansando? Esta praia tem suas próprias surpresas tranquilas.",
+		  "es": "¿Recuerdas la mariposa descansando? Esta playa tiene sus propias sorpresas tranquilas."
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "How quickly we can visit every cove.",
+			  "pt": "A rapidez com que podemos visitar todas as enseadas.",
+			  "es": "Lo rápido que podemos visitar todas las calas."
+			},
+			"ending": {
+			  "en": "There are many lovely ones. We need not hurry through this one to enjoy the others.",
+			  "pt": "Há muitas lindas. Não precisamos correr por esta para aproveitar as outras.",
+			  "es": "Hay muchas preciosas. No hace falta correr por esta para disfrutar de las otras."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The flowers leaning toward the sea breeze.",
+			  "pt": "As flores inclinadas para a brisa do mar.",
+			  "es": "Las flores inclinadas hacia la brisa del mar."
+			},
+			"ending": {
+			  "en": "A gentle little dance. You have brought your attentive eyes back with you. 💖",
+			  "pt": "Uma pequena dança delicada. Você trouxe de volta seu olhar atento. 💖",
+			  "es": "Un pequeño baile delicado. Has vuelto con tu mirada atenta. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "The calm we found without having to fill every silence.",
+			  "pt": "A calma que encontramos sem preencher cada silêncio.",
+			  "es": "La calma que encontramos sin llenar cada silencio."
+			},
+			"ending": {
+			  "en": "I feel at ease with you. Some company is as refreshing as the sea itself. 💕",
+			  "pt": "Fico à vontade com você. Algumas companhias refrescam tanto quanto o próprio mar. 💕",
+			  "es": "Me siento a gusto contigo. Algunas compañías refrescan tanto como el propio mar. 💕"
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "golden_05",
+	"collection": "Golden Tides",
+	"art": "res://content/images/02_Golden_Tides/05_Ember Coast.webp",
+	"name": "Lia",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "You arrived just in time! My picnic basket has made it all the way to the coast. I promised myself a sunset celebration, and now you have arrived just in time. Shall we gather everyone?",
+	  "pt": "Você chegou bem na hora! Minha cesta de piquenique veio parar na costa. Prometi uma pequena festa ao pôr do sol, e você chegou bem na hora. Vamos chamar todo mundo?",
+	  "es": "¡Llegaste justo a tiempo! Mi cesta de pícnic llegó hasta la costa. Me prometí una pequeña fiesta al atardecer, y llegaste justo a tiempo. ¿Llamamos a todos?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "Your floral bikini looks lovely.",
+		  "pt": "Seu biquíni floral está lindo.",
+		  "es": "Tu bikini floral está precioso."
+		},
+		"dialogue": {
+		  "en": "I brought the flowers to the beach! What do you think of my plan?",
+		  "pt": "Trouxe as flores para a praia! O que achou do plano?",
+		  "es": "¡Traje las flores a la playa! ¿Qué te parece mi plan?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Now even the sunset wants an invitation to your party.",
+			  "pt": "Agora até o pôr do sol quer um convite para sua festa.",
+			  "es": "Ahora hasta el atardecer quiere una invitación a tu fiesta."
+			},
+			"ending": {
+			  "en": "Ha! It can bring the golden light, and you can bring that wonderful sense of humor! 💕",
+			  "pt": "Ha! Ele traz a luz dourada, e você traz esse bom humor maravilhoso! 💕",
+			  "es": "¡Ja! Que traiga la luz dorada, y tú ese sentido del humor maravilloso. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The flowers and colors really suit you.",
+			  "pt": "As flores e as cores combinam muito com você.",
+			  "es": "Las flores y los colores te quedan muy bien."
+			},
+			"ending": {
+			  "en": "Thank you! I wanted a little garden that could jump into the waves with me. 💖",
+			  "pt": "Obrigada! Queria um pequeno jardim que pudesse entrar nas ondas comigo. 💖",
+			  "es": "¡Gracias! Quería un pequeño jardín que pudiera entrar en las olas conmigo. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Let us compare it with everybody else’s outfit.",
+			  "pt": "Vamos comparar com o traje de todo mundo.",
+			  "es": "Comparémoslo con la ropa de todos los demás."
+			},
+			"ending": {
+			  "en": "No rankings at my party! The best outfit is the one that lets its owner enjoy the evening.",
+			  "pt": "Nada de rankings na minha festa! O melhor traje é o que deixa a pessoa aproveitar a tarde.",
+			  "es": "¡Nada de clasificaciones en mi fiesta! El mejor traje deja disfrutar a quien lo lleva."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Did you bring the peaches again?",
+		  "pt": "Trouxe pêssegos de novo?",
+		  "es": "¿Trajiste melocotones otra vez?"
+		},
+		"dialogue": {
+		  "en": "Of course. What shall we add to our beach picnic?",
+		  "pt": "Claro. O que acrescentamos ao piquenique da praia?",
+		  "es": "Claro. ¿Qué añadimos al pícnic de playa?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Enough labels to sort everything by size.",
+			  "pt": "Etiquetas para separar tudo por tamanho.",
+			  "es": "Etiquetas para ordenarlo todo por tamaño."
+			},
+			"ending": {
+			  "en": "Very tidy! I may eat a peach before you finish the labels, though.",
+			  "pt": "Muito organizado! Mas talvez eu coma um pêssego antes de você terminar as etiquetas.",
+			  "es": "¡Muy ordenado! Aunque quizá coma un melocotón antes de que acabes las etiquetas."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "A new story from everyone who joins us.",
+			  "pt": "Uma história nova de cada pessoa que chegar.",
+			  "es": "Una nueva historia de cada persona que llegue."
+			},
+			"ending": {
+			  "en": "Our favorite recipe again! Good food, good stories, and another friend beside me. 💕",
+			  "pt": "Nossa receita favorita de novo! Boa comida, boas histórias e mais uma amizade ao meu lado. 💕",
+			  "es": "¡Nuestra receta favorita otra vez! Buena comida, buenas historias y otra amistad a mi lado. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Fresh juice to share.",
+			  "pt": "Suco fresquinho para compartilhar.",
+			  "es": "Zumo fresco para compartir."
+			},
+			"ending": {
+			  "en": "Perfect for a warm evening. I will save you the first glass. 💖",
+			  "pt": "Perfeito para uma tarde quente. Guardo o primeiro copo para você. 💖",
+			  "es": "Perfecto para una tarde cálida. Te guardaré el primer vaso. 💖"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "How shall we celebrate the sunset?",
+		  "pt": "Como vamos celebrar o pôr do sol?",
+		  "es": "¿Cómo celebramos el atardecer?"
+		},
+		"dialogue": {
+		  "en": "The light is almost golden. What shall we do before it fades?",
+		  "pt": "A luz está quase dourada. O que fazemos antes que desapareça?",
+		  "es": "La luz está casi dorada. ¿Qué hacemos antes de que desaparezca?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Take a cheerful photo of our little gathering.",
+			  "pt": "Tirar uma foto alegre do nosso encontro.",
+			  "es": "Hacer una foto alegre de nuestro encuentro."
+			},
+			"ending": {
+			  "en": "Everyone closer! This one will remind me of the afternoon you came back. 💖",
+			  "pt": "Todo mundo mais perto! Esta vai me lembrar da tarde em que você voltou. 💖",
+			  "es": "¡Todos más cerca! Esta me recordará la tarde en que volviste. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Plan tomorrow before enjoying today.",
+			  "pt": "Planejar amanhã antes de aproveitar hoje.",
+			  "es": "Planear mañana antes de disfrutar de hoy."
+			},
+			"ending": {
+			  "en": "Tomorrow can wait a little. This sunset still has a surprise for us.",
+			  "pt": "Amanhã pode esperar um pouco. Este pôr do sol ainda tem uma surpresa para nós.",
+			  "es": "Mañana puede esperar un poco. Este atardecer aún tiene una sorpresa para nosotros."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Invent another picnic dance, barefoot on the sand.",
+			  "pt": "Inventar outra dança de piquenique, descalços na areia.",
+			  "es": "Inventar otro baile de pícnic, descalzos en la arena."
+			},
+			"ending": {
+			  "en": "You remembered our dance! Come on—this time the waves can keep the beat. 💕",
+			  "pt": "Você lembrou da nossa dança! Vamos — desta vez as ondas marcam o ritmo. 💕",
+			  "es": "¡Recordaste nuestro baile! Vamos: esta vez las olas marcarán el ritmo. 💕"
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "golden_06",
+	"collection": "Golden Tides",
+	"art": "res://content/images/02_Golden_Tides/06_Honeyed Waves.webp",
+	"name": "Celeste",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "Hello again! I left the café for a little walk by the waves. My floral hat came too; it insists on a proper seaside outing. May I have your company?",
+	  "pt": "Olá de novo! Deixei a cafeteria para passear junto às ondas. Meu chapéu floral também veio; ele insiste num passeio digno à beira-mar. Faz companhia para mim?",
+	  "es": "¡Hola de nuevo! Dejé la cafetería para pasear junto a las olas. Mi sombrero floral vino también; insiste en un buen paseo junto al mar. ¿Me acompañas?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "Your bikini matches your lovely hat.",
+		  "pt": "Seu biquíni combina com seu lindo chapéu.",
+		  "es": "Tu bikini combina con tu precioso sombrero."
+		},
+		"dialogue": {
+		  "en": "I liked the blue flowers. What would you say about the combination?",
+		  "pt": "Gostei das flores azuis. O que diria sobre a combinação?",
+		  "es": "Me gustaron las flores azules. ¿Qué dirías de la combinación?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The blue flowers look elegant on you.",
+			  "pt": "As flores azuis ficaram elegantes em você.",
+			  "es": "Las flores azules te quedan elegantes."
+			},
+			"ending": {
+			  "en": "Thank you. I wanted something graceful, but comfortable enough for a real beach day. 💖",
+			  "pt": "Obrigada. Queria algo delicado, mas confortável para um verdadeiro dia de praia. 💖",
+			  "es": "Gracias. Quería algo delicado, pero cómodo para un verdadero día de playa. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Your tea cup lent its flowers to a seaside masterpiece.",
+			  "pt": "Sua xícara emprestou as flores para uma obra-prima à beira-mar.",
+			  "es": "Tu taza prestó sus flores a una obra maestra junto al mar."
+			},
+			"ending": {
+			  "en": "What a charming memory! You noticed the blue petals then, and you still notice them now. 💕",
+			  "pt": "Que lembrança charmosa! Você reparou nas pétalas azuis antes e continua reparando agora. 💕",
+			  "es": "¡Qué recuerdo encantador! Notaste los pétalos azules entonces y sigues notándolos ahora. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Ask only how much it cost.",
+			  "pt": "Perguntar só quanto custou.",
+			  "es": "Preguntar solo cuánto costó."
+			},
+			"ending": {
+			  "en": "A practical question, though a comfortable afternoon matters more to me than a price tag.",
+			  "pt": "Uma pergunta prática, mas uma tarde confortável importa mais para mim que uma etiqueta de preço.",
+			  "es": "Una pregunta práctica, aunque una tarde cómoda me importa más que una etiqueta de precio."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Shall we find a seaside café?",
+		  "pt": "Vamos encontrar uma cafeteria à beira-mar?",
+		  "es": "¿Buscamos una cafetería junto al mar?"
+		},
+		"dialogue": {
+		  "en": "There is a little terrace beyond those flowers. How shall we choose?",
+		  "pt": "Há uma pequena varanda depois daquelas flores. Como escolhemos?",
+		  "es": "Hay una pequeña terraza más allá de esas flores. ¿Cómo elegimos?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Somewhere welcoming, with flavors we both enjoy.",
+			  "pt": "Um lugar acolhedor, com sabores que nós dois gostamos.",
+			  "es": "Un lugar acogedor, con sabores que nos gusten a ambos."
+			},
+			"ending": {
+			  "en": "You remember what I value. The finest table is the one where both people feel welcome. 💕",
+			  "pt": "Você lembra do que valorizo. A melhor mesa é aquela onde as duas pessoas se sentem acolhidas. 💕",
+			  "es": "Recuerdas lo que valoro. La mejor mesa es aquella donde ambas personas se sienten acogidas. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "The place with the most extravagant prices.",
+			  "pt": "O lugar com os preços mais extravagantes.",
+			  "es": "El lugar con los precios más extravagantes."
+			},
+			"ending": {
+			  "en": "We need not turn tea into a competition. A kind welcome is worth much more.",
+			  "pt": "Não precisamos transformar chá em competição. Uma recepção gentil vale muito mais.",
+			  "es": "No hace falta convertir el té en una competición. Una bienvenida amable vale mucho más."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "A shaded table with a view of the little boats.",
+			  "pt": "Uma mesa à sombra com vista para os barcos.",
+			  "es": "Una mesa a la sombra con vistas a las barquitas."
+			},
+			"ending": {
+			  "en": "A lovely choice. We can enjoy the view while the tea cools a little. 💖",
+			  "pt": "Uma ótima escolha. Podemos apreciar a vista enquanto o chá esfria um pouco. 💖",
+			  "es": "Una elección estupenda. Disfrutaremos de la vista mientras el té se enfría un poco. 💖"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "What makes a beach day elegant?",
+		  "pt": "O que torna elegante um dia de praia?",
+		  "es": "¿Qué hace elegante un día de playa?"
+		},
+		"dialogue": {
+		  "en": "Is it the hat, the flowers, or something else?",
+		  "pt": "É o chapéu, as flores ou outra coisa?",
+		  "es": "¿Es el sombrero, las flores o algo más?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Following a strict dress code.",
+			  "pt": "Seguir um código de vestimenta rígido.",
+			  "es": "Seguir un código de vestimenta estricto."
+			},
+			"ending": {
+			  "en": "The sea is much more forgiving than that! I prefer people who feel at ease.",
+			  "pt": "O mar é bem mais tolerante que isso! Prefiro pessoas que se sintam à vontade.",
+			  "es": "¡El mar es mucho más tolerante! Prefiero gente que se sienta a gusto."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Appreciating the small details.",
+			  "pt": "Apreciar os pequenos detalhes.",
+			  "es": "Apreciar los pequeños detalles."
+			},
+			"ending": {
+			  "en": "Yes. A flower, a soft breeze, a thoughtful word—they all belong in a lovely afternoon. 💖",
+			  "pt": "Sim. Uma flor, uma brisa suave, uma palavra atenciosa — tudo cabe numa tarde agradável. 💖",
+			  "es": "Sí. Una flor, una brisa suave, una palabra atenta: todo cabe en una tarde agradable. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Making your companion feel welcome, wherever you are.",
+			  "pt": "Fazer sua companhia se sentir acolhida, onde quer que esteja.",
+			  "es": "Hacer que tu compañía se sienta acogida, estés donde estés."
+			},
+			"ending": {
+			  "en": "Then this is already a wonderfully elegant day. Thank you for coming back to share it. 💕",
+			  "pt": "Então este já é um dia maravilhosamente elegante. Obrigada por voltar para compartilhá-lo. 💕",
+			  "es": "Entonces este ya es un día maravillosamente elegante. Gracias por volver a compartirlo. 💕"
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "golden_07",
+	"collection": "Golden Tides",
+	"art": "res://content/images/02_Golden_Tides/07_Velvet Horizon.webp",
+	"name": "Clara",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "I got caught up in my book and arrived rather late. Flora has already spent the whole day here! Still, the sunset looks like the final page of a lovely story. Will you watch it with me?",
+	  "pt": "Me distraí com o livro e cheguei bem tarde. Flora já passou o dia inteiro aqui! Mesmo assim, o pôr do sol parece a última página de uma linda história. Quer observar comigo?",
+	  "es": "Me entretuve con mi libro y llegué bastante tarde. ¡Flora ya pasó todo el día aquí! Aun así, el atardecer parece la última página de una hermosa historia. ¿Lo miramos juntos?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "About your violet bikini…",
+		  "pt": "Sobre seu biquíni violeta…",
+		  "es": "Sobre tu bikini violeta…"
+		},
+		"dialogue": {
+		  "en": "I chose something simple. I would rather keep the conversation quiet tonight.",
+		  "pt": "Escolhi algo simples. Prefiro uma conversa tranquila esta noite.",
+		  "es": "Elegí algo sencillo. Prefiero una conversación tranquila esta noche."
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "The color looks lovely on you.",
+			  "pt": "A cor ficou linda em você.",
+			  "es": "El color te queda precioso."
+			},
+			"ending": {
+			  "en": "Thank you. Shall we turn our attention to those violet clouds? They have a story of their own.",
+			  "pt": "Obrigada. Vamos olhar aquelas nuvens violetas? Elas têm sua própria história.",
+			  "es": "Gracias. ¿Miramos esas nubes violetas? Tienen su propia historia."
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "You arrived late so the sunset could match your outfit!",
+			  "pt": "Você chegou tarde para o pôr do sol combinar com seu traje!",
+			  "es": "¡Llegaste tarde para que el atardecer combinara con tu ropa!"
+			},
+			"ending": {
+			  "en": "A clever little joke. Tonight, though, I feel more like listening than being the center of attention.",
+			  "pt": "Uma brincadeira esperta. Mas hoje estou mais para escutar do que para ser o centro das atenções.",
+			  "es": "Una broma ingeniosa. Pero hoy prefiero escuchar a ser el centro de atención."
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "The sea has found an elegant visitor.",
+			  "pt": "O mar encontrou uma visitante elegante.",
+			  "es": "El mar encontró una visitante elegante."
+			},
+			"ending": {
+			  "en": "That is kind. I am happy just to be here, beside someone who remembers me.",
+			  "pt": "Que gentileza. Estou feliz só por estar aqui, ao lado de alguém que se lembra de mim.",
+			  "es": "Qué detalle. Me alegra estar aquí, junto a alguien que me recuerda."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "What kept you in that book?",
+		  "pt": "O que prendeu você naquele livro?",
+		  "es": "¿Qué te atrapó en ese libro?"
+		},
+		"dialogue": {
+		  "en": "The traveler reached the door we imagined together. What ending would you give the chapter?",
+		  "pt": "O viajante chegou à porta que imaginamos juntos. Que final daria ao capítulo?",
+		  "es": "El viajero llegó a la puerta que imaginamos juntos. ¿Qué final le darías al capítulo?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "A lantern shows the way to the sea.",
+			  "pt": "Uma lanterna mostra o caminho para o mar.",
+			  "es": "Una farola muestra el camino al mar."
+			},
+			"ending": {
+			  "en": "A lovely bridge between our stories. Perhaps that is why I ended up here tonight. 💖",
+			  "pt": "Uma bela ponte entre nossas histórias. Talvez por isso eu tenha vindo parar aqui esta noite. 💖",
+			  "es": "Un hermoso puente entre nuestras historias. Quizá por eso acabé aquí esta noche. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Skip the ending and start the next book.",
+			  "pt": "Pular o final e começar outro livro.",
+			  "es": "Saltarse el final y empezar otro libro."
+			},
+			"ending": {
+			  "en": "I would miss saying goodbye to this chapter. Let us give it one more page first.",
+			  "pt": "Eu sentiria falta de me despedir deste capítulo. Vamos dar mais uma página a ele primeiro.",
+			  "es": "Echaría de menos despedirme de este capítulo. Démosle una página más primero."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "The traveler finds a friend who saved a place by the waves.",
+			  "pt": "O viajante encontra uma amizade que guardou lugar perto das ondas.",
+			  "es": "El viajero encuentra una amistad que le guardó sitio junto a las olas."
+			},
+			"ending": {
+			  "en": "You remember my favorite kind of ending. Even arriving late feels right when someone welcomes you. 💕",
+			  "pt": "Você lembra do meu tipo favorito de final. Até chegar tarde parece certo quando alguém acolhe você. 💕",
+			  "es": "Recuerdas mi final favorito. Hasta llegar tarde parece bien cuando alguien te recibe con cariño. 💕"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "There is still time to enjoy the shore.",
+		  "pt": "Ainda dá tempo de aproveitar a praia.",
+		  "es": "Aún hay tiempo para disfrutar de la playa."
+		},
+		"dialogue": {
+		  "en": "The lanterns are lighting up. What shall we do with the little evening I have left?",
+		  "pt": "As lanternas estão acendendo. O que fazemos com o restinho de tarde que tenho?",
+		  "es": "Las farolas se están encendiendo. ¿Qué hacemos con la tarde que me queda?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Sit together and let the waves finish the story.",
+			  "pt": "Sentar juntos e deixar as ondas terminarem a história.",
+			  "es": "Sentarnos juntos y dejar que las olas terminen la historia."
+			},
+			"ending": {
+			  "en": "That sounds perfect. I do not need to catch up with the whole day to treasure this moment. 💕",
+			  "pt": "Parece perfeito. Não preciso recuperar o dia inteiro para guardar este momento com carinho. 💕",
+			  "es": "Suena perfecto. No necesito recuperar todo el día para guardar este momento con cariño. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Walk slowly past the flowers and lanterns.",
+			  "pt": "Passear devagar entre as flores e lanternas.",
+			  "es": "Pasear despacio entre las flores y las farolas."
+			},
+			"ending": {
+			  "en": "A gentle last chapter for the day. I am glad you stayed to share it. 💖",
+			  "pt": "Um último capítulo delicado para o dia. Fico feliz que você tenha ficado para compartilhar. 💖",
+			  "es": "Un último capítulo delicado para el día. Me alegra que te quedaras a compartirlo. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Race through every spot before it gets dark.",
+			  "pt": "Correr por todos os lugares antes de escurecer.",
+			  "es": "Correr por todos los lugares antes de que oscurezca."
+			},
+			"ending": {
+			  "en": "I think I would rather visit one place properly than rush past ten. The next day will have more pages.",
+			  "pt": "Prefiro conhecer bem um lugar a passar correndo por dez. O próximo dia terá mais páginas.",
+			  "es": "Prefiero conocer bien un lugar a pasar corriendo por diez. El próximo día tendrá más páginas."
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "golden_08",
+	"collection": "Golden Tides",
+	"art": "res://content/images/02_Golden_Tides/08_Marigold Bay.webp",
+	"name": "Flora",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "How lovely to see you again! Clara arrived just before sunset, but I have been exploring since morning. The sea air, the flowers, and a little sunshine have left me feeling radiant. Like my new beach look?",
+	  "pt": "Que bom rever você! Clara chegou quase ao pôr do sol, mas eu estou explorando desde cedo. A brisa, as flores e um pouco de sol me deixaram radiante. Gostou do meu visual de praia?",
+	  "es": "¡Qué alegría volver a verte! Clara llegó casi al atardecer, pero yo exploro desde temprano. La brisa, las flores y un poco de sol me dejaron radiante. ¿Te gusta mi aspecto de playa?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "Your bikini and tan look beautiful.",
+		  "pt": "Seu biquíni e seu bronzeado estão lindos.",
+		  "es": "Tu bikini y tu bronceado están preciosos."
+		},
+		"dialogue": {
+		  "en": "I love these warm colors! What caught your eye first?",
+		  "pt": "Adoro essas cores quentes! O que chamou sua atenção primeiro?",
+		  "es": "¡Adoro estos colores cálidos! ¿Qué te llamó la atención primero?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The orange really brings out your lovely tan.",
+			  "pt": "O laranja valoriza seu lindo bronzeado.",
+			  "es": "El naranja realza tu precioso bronceado."
+			},
+			"ending": {
+			  "en": "Thank you! I picked it to match the flowers and this golden little mood. 💖",
+			  "pt": "Obrigada! Escolhi para combinar com as flores e com esse meu humor dourado. 💖",
+			  "es": "¡Gracias! Lo elegí para combinar con las flores y con este ánimo dorado. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Did the sunshine borrow its glow from you today?",
+			  "pt": "Foi o sol que pegou seu brilho emprestado hoje?",
+			  "es": "¿El sol te pidió prestado el brillo hoy?"
+			},
+			"ending": {
+			  "en": "Ha! Keep talking like that and I will start charging the sun rent! You made my day even brighter. 💕",
+			  "pt": "Ha! Continue assim e vou começar a cobrar aluguel do sol! Você deixou meu dia ainda mais bonito. 💕",
+			  "es": "¡Ja! ¡Sigue así y empezaré a cobrarle alquiler al sol! Dejaste mi día aún más bonito. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "We should compare everyone’s tan and pick a winner.",
+			  "pt": "Devíamos comparar os bronzeados e escolher um vencedor.",
+			  "es": "Deberíamos comparar los bronceados y elegir un ganador."
+			},
+			"ending": {
+			  "en": "No contest needed. I am enjoying my own glow, and everyone can enjoy theirs!",
+			  "pt": "Não precisa de competição. Estou aproveitando meu brilho, e cada pessoa pode aproveitar o seu!",
+			  "es": "No hace falta competir. ¡Yo disfruto de mi brillo y cada persona puede disfrutar del suyo!"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Did you find a new adventure?",
+		  "pt": "Encontrou uma aventura nova?",
+		  "es": "¿Encontraste una aventura nueva?"
+		},
+		"dialogue": {
+		  "en": "There is a little cove beyond those flowers. What shall we take?",
+		  "pt": "Há uma enseada depois daquelas flores. O que levamos?",
+		  "es": "Hay una cala más allá de esas flores. ¿Qué llevamos?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "A timetable for every minute.",
+			  "pt": "Um cronograma para cada minuto.",
+			  "es": "Un horario para cada minuto."
+			},
+			"ending": {
+			  "en": "That is a very organized adventure! Let us leave a little room for surprises too.",
+			  "pt": "Uma aventura bem organizada! Vamos deixar um espacinho para surpresas também.",
+			  "es": "¡Una aventura muy organizada! Dejemos un poco de espacio para las sorpresas también."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Your flowered hat and our curiosity from the garden.",
+			  "pt": "Seu chapéu florido e nossa curiosidade do jardim.",
+			  "es": "Tu sombrero florido y nuestra curiosidad del jardín."
+			},
+			"ending": {
+			  "en": "You remembered! My favorite companion is ready for another unexpected path. 💕",
+			  "pt": "Você lembrou! Minha companhia favorita está pronta para outro caminho inesperado. 💕",
+			  "es": "¡Lo recordaste! Mi compañía favorita está lista para otro camino inesperado. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Water, a towel, and somewhere to rest in the shade.",
+			  "pt": "Água, uma toalha e um lugar para descansar à sombra.",
+			  "es": "Agua, una toalla y un sitio para descansar a la sombra."
+			},
+			"ending": {
+			  "en": "A thoughtful explorer! A comfortable pause makes the next discovery even sweeter. 💖",
+			  "pt": "Um explorador atencioso! Uma pausa confortável deixa a próxima descoberta ainda melhor. 💖",
+			  "es": "¡Qué explorador atento! Una pausa cómoda hace aún mejor el próximo descubrimiento. 💖"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Tell me about Clara’s late arrival.",
+		  "pt": "Conte sobre a chegada tardia de Clara.",
+		  "es": "Cuéntame sobre la llegada tardía de Clara."
+		},
+		"dialogue": {
+		  "en": "She said the sunset looked like a book ending. What should I tell her?",
+		  "pt": "Ela disse que o pôr do sol parecia um final de livro. O que digo para ela?",
+		  "es": "Dijo que el atardecer parecía el final de un libro. ¿Qué le digo?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "You explored the day; she arrived to write the ending.",
+			  "pt": "Você explorou o dia; ela chegou para escrever o final.",
+			  "es": "Tú exploraste el día; ella llegó para escribir el final."
+			},
+			"ending": {
+			  "en": "I love that! Two sisters, two ways of finding a story. Violet will want to hear this one. 💕",
+			  "pt": "Adorei! Duas irmãs, dois jeitos de encontrar uma história. Violet vai querer ouvir essa. 💕",
+			  "es": "¡Me encanta! Dos hermanas, dos formas de encontrar una historia. Violet querrá oír esta. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Save her a seat beside us.",
+			  "pt": "Guardar um lugar ao nosso lado para ela.",
+			  "es": "Guardarle un sitio a nuestro lado."
+			},
+			"ending": {
+			  "en": "Of course. No good beach day is complete without room for my twin. 💖",
+			  "pt": "Claro. Nenhum dia de praia fica completo sem espaço para minha gêmea. 💖",
+			  "es": "Claro. Ningún día de playa está completo sin sitio para mi gemela. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Give her a very detailed list of everything she missed.",
+			  "pt": "Dar uma lista bem detalhada de tudo que ela perdeu.",
+			  "es": "Darle una lista muy detallada de todo lo que se perdió."
+			},
+			"ending": {
+			  "en": "That might become another book! I would rather help her enjoy the evening she still has.",
+			  "pt": "Isso pode virar outro livro! Prefiro ajudar ela a aproveitar a tarde que ainda tem.",
+			  "es": "¡Eso podría convertirse en otro libro! Prefiero ayudarla a disfrutar de la tarde que aún tiene."
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "golden_09",
+	"collection": "Golden Tides",
+	"art": "res://content/images/02_Golden_Tides/09_Dawn by the Sea.webp",
+	"name": "Dawn",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "You found me by the sea! I followed a sparkling trail from the garden, but the waves persuaded me to take a little break. Even a journey between worlds needs a peaceful afternoon.",
+	  "pt": "Você me encontrou à beira-mar! Segui uma trilha brilhante desde o jardim, mas as ondas me convenceram a fazer uma pausa. Até uma viagem entre mundos precisa de uma tarde tranquila.",
+	  "es": "¡Me encontraste junto al mar! Seguí un rastro brillante desde el jardín, pero las olas me convencieron de hacer una pausa. Hasta un viaje entre mundos necesita una tarde tranquila."
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "Your floral bikini is lovely.",
+		  "pt": "Seu biquíni floral é lindo.",
+		  "es": "Tu bikini floral es precioso."
+		},
+		"dialogue": {
+		  "en": "I thought these flowers would remind me of the garden. What do you think?",
+		  "pt": "Achei que estas flores me lembrariam o jardim. O que achou?",
+		  "es": "Pensé que estas flores me recordarían el jardín. ¿Qué te parece?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "A whole garden crossed worlds just to brighten your beach day.",
+			  "pt": "Um jardim inteiro atravessou mundos para alegrar seu dia de praia.",
+			  "es": "Un jardín entero cruzó mundos para alegrar tu día de playa."
+			},
+			"ending": {
+			  "en": "Then I brought more than fragments on this journey! Thank you for making even a little pause feel magical. 💕",
+			  "pt": "Então trouxe mais que fragmentos nesta viagem! Obrigada por deixar até uma pequena pausa mágica. 💕",
+			  "es": "¡Entonces traje más que fragmentos en este viaje! Gracias por hacer mágica hasta una pequeña pausa. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Make it the official uniform of every world.",
+			  "pt": "Transformar no uniforme oficial de todos os mundos.",
+			  "es": "Convertirlo en el uniforme oficial de todos los mundos."
+			},
+			"ending": {
+			  "en": "That would be a very breezy adventure! I think each world—and each person—can choose its own style.",
+			  "pt": "Seria uma aventura bem arejada! Acho que cada mundo — e cada pessoa — pode escolher seu estilo.",
+			  "es": "¡Sería una aventura muy fresca! Creo que cada mundo y cada persona puede elegir su estilo."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The delicate flowers really suit you.",
+			  "pt": "As flores delicadas combinam muito com você.",
+			  "es": "Las flores delicadas te quedan muy bien."
+			},
+			"ending": {
+			  "en": "Thank you. A little of the garden, a little of the sea, and familiar company beside me. 💖",
+			  "pt": "Obrigada. Um pouco do jardim, um pouco do mar e uma companhia conhecida ao meu lado. 💖",
+			  "es": "Gracias. Un poco del jardín, un poco del mar y una compañía conocida a mi lado. 💖"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Did you find a fragment on this shore?",
+		  "pt": "Encontrou um fragmento nesta praia?",
+		  "es": "¿Encontraste un fragmento en esta playa?"
+		},
+		"dialogue": {
+		  "en": "Something is glowing near the rocks. How should we investigate?",
+		  "pt": "Algo brilha perto das pedras. Como vamos investigar?",
+		  "es": "Algo brilla cerca de las rocas. ¿Cómo investigamos?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Wait for a gentle wave, then look carefully.",
+			  "pt": "Esperar uma onda suave e observar com cuidado.",
+			  "es": "Esperar una ola suave y mirar con cuidado."
+			},
+			"ending": {
+			  "en": "A good plan. We can discover its secret without rushing into the water. 💖",
+			  "pt": "Um bom plano. Podemos descobrir o segredo sem correr para a água. 💖",
+			  "es": "Un buen plan. Podemos descubrir su secreto sin correr hacia el agua. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Explore together, taking care of the little creatures there.",
+			  "pt": "Explorar juntos, cuidando dos pequenos seres que vivem ali.",
+			  "es": "Explorar juntos, cuidando de los pequeños seres que viven allí."
+			},
+			"ending": {
+			  "en": "That is the kind of adventure I love. A discovery is brighter when we leave kindness behind. 💕",
+			  "pt": "É desse tipo de aventura que gosto. Uma descoberta brilha mais quando deixamos gentileza pelo caminho. 💕",
+			  "es": "Ese es el tipo de aventura que me gusta. Un descubrimiento brilla más cuando dejamos bondad por el camino. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Decide it must be treasure before we see it.",
+			  "pt": "Decidir que é um tesouro antes de olhar.",
+			  "es": "Decidir que es un tesoro antes de verlo."
+			},
+			"ending": {
+			  "en": "Perhaps! Or perhaps sunlight found a pretty shell. Either would be worth a closer look.",
+			  "pt": "Talvez! Ou talvez o sol tenha encontrado uma concha bonita. Os dois merecem um olhar mais próximo.",
+			  "es": "¡Quizá! O quizá el sol encontró una concha bonita. Ambos merecen una mirada más cercana."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "What will you remember from this stop?",
+		  "pt": "O que vai lembrar desta parada?",
+		  "es": "¿Qué recordarás de esta parada?"
+		},
+		"dialogue": {
+		  "en": "I have room for one more little memory. What would you suggest?",
+		  "pt": "Tenho espaço para mais uma pequena lembrança. O que sugere?",
+		  "es": "Tengo sitio para un pequeño recuerdo más. ¿Qué sugieres?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Only how many fragments you collected.",
+			  "pt": "Só quantos fragmentos você coletou.",
+			  "es": "Solo cuántos fragmentos recogiste."
+			},
+			"ending": {
+			  "en": "They matter, of course. But a journey holds things that cannot be counted too.",
+			  "pt": "Eles importam, claro. Mas uma viagem também guarda coisas que não dá para contar.",
+			  "es": "Importan, claro. Pero un viaje también guarda cosas que no se pueden contar."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The golden light over the little boats.",
+			  "pt": "A luz dourada sobre os barquinhos.",
+			  "es": "La luz dorada sobre las barquitas."
+			},
+			"ending": {
+			  "en": "A lovely memory to carry into another world. I will think of this view when I need a peaceful moment. 💖",
+			  "pt": "Uma linda lembrança para levar a outro mundo. Vou pensar nesta vista quando precisar de calma. 💖",
+			  "es": "Un hermoso recuerdo para llevar a otro mundo. Pensaré en esta vista cuando necesite calma. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "That an old friend found you even on a new shore.",
+			  "pt": "Que uma amizade antiga encontrou você até numa praia nova.",
+			  "es": "Que una antigua amistad te encontró hasta en una playa nueva."
+			},
+			"ending": {
+			  "en": "Then this is already my favorite memory. Thank you for being part of the worlds I visit. 💕",
+			  "pt": "Então esta já é minha lembrança favorita. Obrigada por fazer parte dos mundos que visito. 💕",
+			  "es": "Entonces este ya es mi recuerdo favorito. Gracias por formar parte de los mundos que visito. 💕"
+			}
+		  }
+		]
+	  }
+	],
+	"display_name": {
+	  "en": "Dawn",
+	  "pt": "Aurora",
+	  "es": "Alba"
+	}
+  },
+  {
+	"id": "golden_10",
+	"collection": "Golden Tides",
+	"art": "res://content/images/02_Golden_Tides/10_Sakura Surf.webp",
+	"name": "Aiko",
+	"focus": [
+	  0.43,
+	  0.22
+	],
+	"intro": {
+	  "en": "You came back! Remember our walk beneath the cherry blossoms? I found another path where the petals meet the sea. I brought no sketchbook today; perhaps we can keep the view in a different way.",
+	  "pt": "Você voltou! Lembra do nosso passeio sob as cerejeiras? Encontrei outro caminho onde as pétalas encontram o mar. Hoje não trouxe caderno; talvez possamos guardar a vista de outro jeito.",
+	  "es": "¡Volviste! ¿Recuerdas nuestro paseo bajo los cerezos? Encontré otro sendero donde los pétalos encuentran el mar. Hoy no traje cuaderno; quizá guardemos la vista de otra manera."
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "Your bikini matches the cherry blossoms.",
+		  "pt": "Seu biquíni combina com as flores de cerejeira.",
+		  "es": "Tu bikini combina con las flores del cerezo."
+		},
+		"dialogue": {
+		  "en": "I liked this soft pink. Did it remind you of our garden?",
+		  "pt": "Gostei desse rosa suave. Lembrou nosso jardim?",
+		  "es": "Me gustó este rosa suave. ¿Te recordó nuestro jardín?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Yes. The color looks lovely on you.",
+			  "pt": "Sim. A cor ficou linda em você.",
+			  "es": "Sí. El color te queda precioso."
+			},
+			"ending": {
+			  "en": "Thank you. I like carrying a little memory into a new place. 💖",
+			  "pt": "Obrigada. Gosto de levar uma pequena lembrança para um lugar novo. 💖",
+			  "es": "Gracias. Me gusta llevar un pequeño recuerdo a un lugar nuevo. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Let us judge which person matches the flowers best.",
+			  "pt": "Vamos julgar quem combina mais com as flores.",
+			  "es": "Juzguemos quién combina mejor con las flores."
+			},
+			"ending": {
+			  "en": "I would rather let everyone enjoy their own colors. A garden has room for many kinds of beauty.",
+			  "pt": "Prefiro deixar cada pessoa aproveitar suas cores. Um jardim tem espaço para muitos tipos de beleza.",
+			  "es": "Prefiero dejar que cada persona disfrute de sus colores. Un jardín tiene sitio para muchas bellezas."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "The blossoms chose their favorite travel companion.",
+			  "pt": "As flores escolheram sua companhia de viagem favorita.",
+			  "es": "Las flores eligieron su compañía de viaje favorita."
+			},
+			"ending": {
+			  "en": "That is a sweet little joke. Then they have brought me to another lovely afternoon with you. 💕",
+			  "pt": "Que brincadeira doce. Então elas me trouxeram para outra tarde adorável com você. 💕",
+			  "es": "Qué broma tan dulce. Entonces me trajeron a otra tarde encantadora contigo. 💕"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "How shall we remember this view without a sketchbook?",
+		  "pt": "Como guardamos esta vista sem um caderno?",
+		  "es": "¿Cómo recordamos esta vista sin un cuaderno?"
+		},
+		"dialogue": {
+		  "en": "The petals are drifting toward the waves. What would you keep?",
+		  "pt": "As pétalas flutuam em direção às ondas. O que você guardaria?",
+		  "es": "Los pétalos flotan hacia las olas. ¿Qué guardarías?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "A little story about our second walk together.",
+			  "pt": "Uma pequena história sobre nosso segundo passeio juntos.",
+			  "es": "Una pequeña historia sobre nuestro segundo paseo juntos."
+			},
+			"ending": {
+			  "en": "A story we can share is better than a picture I keep alone. Shall we give it a title? 💕",
+			  "pt": "Uma história compartilhada é melhor que uma imagem guardada só comigo. Vamos dar um título? 💕",
+			  "es": "Una historia compartida es mejor que una imagen que guardo sola. ¿Le ponemos un título? 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The pink reflections on the blue water.",
+			  "pt": "Os reflexos rosas na água azul.",
+			  "es": "Los reflejos rosas en el agua azul."
+			},
+			"ending": {
+			  "en": "A lovely palette to remember. Perhaps tomorrow we can paint it from memory. 💖",
+			  "pt": "Uma linda paleta para lembrar. Talvez amanhã possamos pintar de memória. 💖",
+			  "es": "Una hermosa paleta para recordar. Quizá mañana podamos pintarla de memoria. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Count each petal before it disappears.",
+			  "pt": "Contar cada pétala antes que desapareça.",
+			  "es": "Contar cada pétalo antes de que desaparezca."
+			},
+			"ending": {
+			  "en": "That might keep us here all evening! I think a few little details will be enough.",
+			  "pt": "Isso pode nos prender aqui a tarde inteira! Acho que alguns pequenos detalhes bastam.",
+			  "es": "¡Eso podría dejarnos aquí toda la tarde! Creo que bastarán unos pequeños detalles."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Where shall the next path lead?",
+		  "pt": "Aonde deve levar o próximo caminho?",
+		  "es": "¿Adónde debería llevar el próximo sendero?"
+		},
+		"dialogue": {
+		  "en": "The shore continues beyond that little bridge. What do you suggest?",
+		  "pt": "A praia continua depois daquela ponte. O que sugere?",
+		  "es": "La playa continúa después de ese puente. ¿Qué sugieres?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Make a list of every stop and rush through them.",
+			  "pt": "Fazer uma lista de paradas e passar por todas correndo.",
+			  "es": "Hacer una lista de paradas y recorrerlas corriendo."
+			},
+			"ending": {
+			  "en": "There are many places to see. Let us leave enough time to actually notice them.",
+			  "pt": "Há muitos lugares para ver. Vamos deixar tempo para realmente perceber cada um.",
+			  "es": "Hay muchos lugares que ver. Dejemos tiempo para apreciar cada uno de verdad."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Choose somewhere meaningful to you, and hear its story.",
+			  "pt": "Escolher um lugar importante para você e ouvir sua história.",
+			  "es": "Elegir un lugar importante para ti y escuchar su historia."
+			},
+			"ending": {
+			  "en": "You still ask about the memories behind the view. That makes me happy to share another one. 💕",
+			  "pt": "Você ainda pergunta pelas lembranças atrás da paisagem. Isso me deixa feliz de compartilhar outra. 💕",
+			  "es": "Sigues preguntando por los recuerdos detrás del paisaje. Eso me alegra compartir otro. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Walk slowly toward the shade by the bridge.",
+			  "pt": "Passear devagar até a sombra perto da ponte.",
+			  "es": "Pasear despacio hasta la sombra junto al puente."
+			},
+			"ending": {
+			  "en": "A gentle next chapter. Perhaps we will find another detail neither of us noticed before. 💖",
+			  "pt": "Um próximo capítulo tranquilo. Talvez encontremos um detalhe que nenhum de nós viu antes. 💖",
+			  "es": "Un siguiente capítulo tranquilo. Quizá encontremos un detalle que ninguno había visto antes. 💖"
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "golden_11",
+	"collection": "Golden Tides",
+	"art": "res://content/images/02_Golden_Tides/11_Jasmine Breeze.webp",
+	"name": "Yasmin",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "Hi again! I found jasmine by the shore too! Its scent brought back our garden conversation. I was about to take a little walk with this basket. Would you like to come?",
+	  "pt": "Oi de novo! Encontrei jasmim na praia também! O perfume me lembrou nossa conversa no jardim. Ia dar uma volta com esta cesta. Quer vir?",
+	  "es": "¡Hola de nuevo! ¡Encontré jazmín también en la playa! Su perfume me recordó nuestra charla en el jardín. Iba a pasear con esta cesta. ¿Vienes?"
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "Your green bikini suits you beautifully.",
+		  "pt": "Seu biquíni verde combina muito com você.",
+		  "es": "Tu bikini verde te queda precioso."
+		},
+		"dialogue": {
+		  "en": "I love the soft color. What does it remind you of?",
+		  "pt": "Adoro essa cor suave. O que ela lembra para você?",
+		  "es": "Me encanta este color suave. ¿Qué te recuerda?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "The garden followed its loveliest storyteller to the beach.",
+			  "pt": "O jardim seguiu sua contadora de histórias mais bonita até a praia.",
+			  "es": "El jardín siguió a su narradora más bonita hasta la playa."
+			},
+			"ending": {
+			  "en": "That is a charming way to say it! I am glad both my stories and my beach look caught your attention. 💕",
+			  "pt": "Que jeito charmoso de dizer! Fico feliz que minhas histórias e meu visual de praia tenham chamado sua atenção. 💕",
+			  "es": "¡Qué forma tan encantadora de decirlo! Me alegra que mis historias y mi aspecto de playa llamaran tu atención. 💕"
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The jasmine leaves beside your favorite seat.",
+			  "pt": "As folhas de jasmim perto do seu lugar favorito.",
+			  "es": "Las hojas del jazmín junto a tu sitio favorito."
+			},
+			"ending": {
+			  "en": "You remembered the little corner! Thank you; I hoped this green would carry some of its calm. 💖",
+			  "pt": "Você lembrou do cantinho! Obrigada; queria que esse verde trouxesse um pouco daquela calma. 💖",
+			  "es": "¡Recordaste el rincón! Gracias; quería que este verde trajera un poco de aquella calma. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "We should compare everybody’s outfit first.",
+			  "pt": "Devíamos comparar os trajes de todo mundo primeiro.",
+			  "es": "Deberíamos comparar primero la ropa de todos."
+			},
+			"ending": {
+			  "en": "I would rather enjoy what each person likes about their own day. Shall we start with ours?",
+			  "pt": "Prefiro aproveitar o que cada pessoa gosta no próprio dia. Começamos pelo nosso?",
+			  "es": "Prefiero disfrutar de lo que cada persona aprecia de su día. ¿Empezamos por el nuestro?"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "What did you put in the basket?",
+		  "pt": "O que colocou na cesta?",
+		  "es": "¿Qué pusiste en la cesta?"
+		},
+		"dialogue": {
+		  "en": "A few things for a snack by the water. What should we share?",
+		  "pt": "Algumas coisas para um lanche junto à água. O que compartilhamos?",
+		  "es": "Unas cosas para merendar junto al agua. ¿Qué compartimos?"
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Fresh fruit and a cool drink.",
+			  "pt": "Frutas frescas e uma bebida gelada.",
+			  "es": "Fruta fresca y una bebida fría."
+			},
+			"ending": {
+			  "en": "A lovely beach snack. I saved a little spot in the shade for us. 💖",
+			  "pt": "Um ótimo lanche de praia. Guardei um lugarzinho à sombra para nós. 💖",
+			  "es": "Una merienda estupenda para la playa. Guardé un rinconcito a la sombra para nosotros. 💖"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Only the easiest thing to eat while hurrying.",
+			  "pt": "Só o mais fácil de comer enquanto corremos.",
+			  "es": "Solo lo más fácil de comer mientras corremos."
+			},
+			"ending": {
+			  "en": "We can keep it simple without rushing. The shore will still be here after a little pause.",
+			  "pt": "Podemos simplificar sem correr. A praia continuará aqui depois de uma pequena pausa.",
+			  "es": "Podemos simplificar sin correr. La playa seguirá aquí después de una pequeña pausa."
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "A favorite flavor from each of us, and another story.",
+			  "pt": "Um sabor favorito de cada um e outra história.",
+			  "es": "Un sabor favorito de cada uno y otra historia."
+			},
+			"ending": {
+			  "en": "Our shared table again! I like that you brought back the part I loved most. 💕",
+			  "pt": "Nossa mesa compartilhada de novo! Gostei de você trazer de volta a parte de que mais gostei. 💕",
+			  "es": "¡Nuestra mesa compartida otra vez! Me gusta que trajeras de vuelta la parte que más disfruté. 💕"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Does this jasmine remind you of somewhere?",
+		  "pt": "Este jasmim lembra algum lugar?",
+		  "es": "¿Este jazmín te recuerda algún lugar?"
+		},
+		"dialogue": {
+		  "en": "Some scents make a place feel familiar before you know it. What would you ask me?",
+		  "pt": "Alguns perfumes deixam um lugar familiar antes de conhecê-lo. O que você me perguntaria?",
+		  "es": "Algunos perfumes vuelven familiar un lugar antes de conocerlo. ¿Qué me preguntarías?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "How many places have jasmine, exactly?",
+			  "pt": "Quantos lugares têm jasmim, exatamente?",
+			  "es": "¿Cuántos lugares tienen jazmín, exactamente?"
+			},
+			"ending": {
+			  "en": "Quite a few, I imagine! I know the ones that left a memory with me.",
+			  "pt": "Imagino que muitos! Conheço aqueles que deixaram uma lembrança comigo.",
+			  "es": "¡Imagino que muchos! Conozco los que dejaron un recuerdo conmigo."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "What detail makes this shore feel welcoming?",
+			  "pt": "Que detalhe torna esta praia acolhedora?",
+			  "es": "¿Qué detalle vuelve acogedora esta playa?"
+			},
+			"ending": {
+			  "en": "The flowers, the warm breeze, and now a familiar face beside me. 💖",
+			  "pt": "As flores, a brisa morna e agora um rosto conhecido ao meu lado. 💖",
+			  "es": "Las flores, la brisa cálida y ahora un rostro conocido a mi lado. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Which memory would you like to share this time?",
+			  "pt": "Que lembrança gostaria de compartilhar desta vez?",
+			  "es": "¿Qué recuerdo te gustaría compartir esta vez?"
+			},
+			"ending": {
+			  "en": "Thank you for asking without rushing the answer. I have a new little story, and I am happy you came to hear it. 💕",
+			  "pt": "Obrigada por perguntar sem apressar a resposta. Tenho uma história nova e fico feliz que você tenha vindo ouvir. 💕",
+			  "es": "Gracias por preguntar sin apresurar la respuesta. Tengo una historia nueva y me alegra que vinieras a escucharla. 💕"
+			}
+		  }
+		]
+	  }
+	]
+  },
+  {
+	"id": "golden_12",
+	"collection": "Golden Tides",
+	"art": "res://content/images/02_Golden_Tides/12_Rosewater_Tide.webp",
+	"name": "Rosa",
+	"focus": [
+	  0.5,
+	  0.22
+	],
+	"intro": {
+	  "en": "Hello… I found this little shell while walking in the shallow water. I was trying to think of a note about it. Seeing you again makes it easier to find the words.",
+	  "pt": "Olá… Encontrei esta conchinha enquanto passeava na água rasa. Estava tentando pensar num bilhete sobre ela. Rever você deixa mais fácil encontrar as palavras.",
+	  "es": "Hola… Encontré esta conchita mientras paseaba por el agua poco profunda. Intentaba pensar en una nota sobre ella. Volver a verte facilita encontrar las palabras."
+	},
+	"branches": [
+	  {
+		"label": {
+		  "en": "The flowers on your bikini are lovely.",
+		  "pt": "As flores do seu biquíni são lindas.",
+		  "es": "Las flores de tu bikini son preciosas."
+		},
+		"dialogue": {
+		  "en": "Thank you… I hoped it would feel a little like the rose garden.",
+		  "pt": "Obrigada… queria que lembrasse um pouco o jardim de rosas.",
+		  "es": "Gracias… quería que recordara un poco al jardín de rosas."
+		},
+		"choices": [
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "The soft colors really suit you.",
+			  "pt": "As cores suaves combinam muito com você.",
+			  "es": "Los colores suaves te quedan muy bien."
+			},
+			"ending": {
+			  "en": "That is kind of you. A gentle compliment makes me feel a little more at ease. 💖",
+			  "pt": "Que gentileza. Um elogio delicado me deixa um pouco mais à vontade. 💖",
+			  "es": "Qué detalle. Un cumplido delicado me hace sentir un poco más cómoda. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "The roses came to the beach, and brought their sweetest company.",
+			  "pt": "As rosas vieram à praia e trouxeram sua companhia mais doce.",
+			  "es": "Las rosas vinieron a la playa y trajeron su compañía más dulce."
+			},
+			"ending": {
+			  "en": "Oh… that made me smile. I like how you can make a little joke without putting me on the spot. 💕",
+			  "pt": "Ah… isso me fez sorrir. Gosto de como você brinca sem me deixar no centro das atenções. 💕",
+			  "es": "Ah… eso me hizo sonreír. Me gusta cómo bromeas sin ponerme en el centro de atención. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Announce to everybody that yours is the prettiest bikini.",
+			  "pt": "Anunciar para todo mundo que o seu é o biquíni mais bonito.",
+			  "es": "Anunciar a todos que el tuyo es el bikini más bonito."
+			},
+			"ending": {
+			  "en": "Perhaps just between us? I would rather enjoy this little moment quietly.",
+			  "pt": "Podemos deixar só entre nós? Prefiro aproveitar este pequeno momento em paz.",
+			  "es": "¿Podemos dejarlo entre nosotros? Prefiero disfrutar de este pequeño momento en paz."
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Tell me about your shell.",
+		  "pt": "Conte sobre sua concha.",
+		  "es": "Cuéntame sobre tu concha."
+		},
+		"dialogue": {
+		  "en": "It has little curved lines, like words I cannot quite read. What do you think they say?",
+		  "pt": "Ela tem linhas curvas, como palavras que ainda não sei ler. O que acha que dizem?",
+		  "es": "Tiene líneas curvas, como palabras que aún no sé leer. ¿Qué crees que dicen?"
+		},
+		"choices": [
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "A quiet hello, waiting for someone patient enough to listen.",
+			  "pt": "Um olá baixinho, esperando alguém paciente para escutar.",
+			  "es": "Un hola bajito, esperando a alguien paciente que escuche."
+			},
+			"ending": {
+			  "en": "That sounds like me a little. Perhaps we can write the note together, one gentle word at a time. 💕",
+			  "pt": "Parece um pouco comigo. Talvez possamos escrever o bilhete juntos, uma palavra delicada de cada vez. 💕",
+			  "es": "Se parece un poco a mí. Quizá escribamos la nota juntos, una palabra delicada cada vez. 💕"
+			}
+		  },
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "A long list of everything we should do today.",
+			  "pt": "Uma lista enorme de tudo que devemos fazer hoje.",
+			  "es": "Una lista enorme de todo lo que debemos hacer hoy."
+			},
+			"ending": {
+			  "en": "That is a busy little shell! I think mine might prefer a shorter message.",
+			  "pt": "Uma conchinha bem ocupada! Acho que a minha prefere uma mensagem mais curta.",
+			  "es": "¡Una conchita muy ocupada! Creo que la mía prefiere un mensaje más corto."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "A little memory of the waves.",
+			  "pt": "Uma pequena lembrança das ondas.",
+			  "es": "Un pequeño recuerdo de las olas."
+			},
+			"ending": {
+			  "en": "I like that. Its curves do look like tiny waves resting in my hands. 💖",
+			  "pt": "Gostei. As curvas parecem mesmo pequenas ondas descansando nas minhas mãos. 💖",
+			  "es": "Me gusta. Sus curvas parecen pequeñas olas descansando en mis manos. 💖"
+			}
+		  }
+		]
+	  },
+	  {
+		"label": {
+		  "en": "Shall we take another quiet walk?",
+		  "pt": "Vamos dar outro passeio tranquilo?",
+		  "es": "¿Damos otro paseo tranquilo?"
+		},
+		"dialogue": {
+		  "en": "The water is shallow here. How shall we enjoy it?",
+		  "pt": "A água está rasa aqui. Como vamos aproveitar?",
+		  "es": "El agua es poco profunda aquí. ¿Cómo la disfrutamos?"
+		},
+		"choices": [
+		  {
+			"reward": 0,
+			"label": {
+			  "en": "Call everyone over for a big photo right now.",
+			  "pt": "Chamar todo mundo para uma grande foto agora.",
+			  "es": "Llamar a todos para una gran foto ahora."
+			},
+			"ending": {
+			  "en": "Maybe later? I am enjoying a little space to talk with you first.",
+			  "pt": "Talvez depois? Estou gostando de ter um espacinho para conversar com você primeiro.",
+			  "es": "¿Quizá después? Disfruto de un pequeño espacio para hablar contigo primero."
+			}
+		  },
+		  {
+			"reward": 1,
+			"label": {
+			  "en": "Walk slowly where the little waves meet the sand.",
+			  "pt": "Passear devagar onde as pequenas ondas encontram a areia.",
+			  "es": "Pasear despacio donde las pequeñas olas encuentran la arena."
+			},
+			"ending": {
+			  "en": "That sounds lovely. We might find another little shape to inspire a note. 💖",
+			  "pt": "Parece ótimo. Talvez encontremos outra pequena forma para inspirar um bilhete. 💖",
+			  "es": "Suena muy bien. Quizá encontremos otra pequeña forma que inspire una nota. 💖"
+			}
+		  },
+		  {
+			"reward": 2,
+			"label": {
+			  "en": "Let the conversation come naturally, just like in the rose garden.",
+			  "pt": "Deixar a conversa surgir naturalmente, como no jardim de rosas.",
+			  "es": "Dejar que la conversación surja sola, como en el jardín de rosas."
+			},
+			"ending": {
+			  "en": "You remembered what helps me feel comfortable. I think I would like to tell you another little story. 💕",
+			  "pt": "Você lembrou do que me deixa à vontade. Acho que gostaria de contar outra pequena história para você. 💕",
+			  "es": "Recordaste lo que me hace sentir cómoda. Creo que me gustaría contarte otra pequeña historia. 💕"
+			}
+		  }
+		]
+	  }
+	]
+  }
+]

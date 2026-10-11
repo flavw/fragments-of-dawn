@@ -1,0 +1,38 @@
+{
+  "en": {
+	"title": "About the game",
+	"subtitle": "A small beginning. A journey through many worlds.",
+	"story_title": "Dawn and the lost fragments",
+	"story": "One morning, Dawn found a crystal that reflected places she had never visited. When she touched it, its light scattered into fragments, opening paths between worlds. Each fragment held a scene, a memory, and the promise of a new friendship.\n\nDawn set out to gather them. From quiet gardens to enchanted castles, sunny beaches and moonlit evenings, she meets people who welcome her into their worlds. Some share a sweet treat; others invite her to an adventure. Piece by piece, she discovers that the greatest treasure is the friends she makes along the way.",
+	"developer_title": "Made with Care",
+	"developer": "This is the first mobile game I have created, with assistance from AI. It began with my family: they enjoy puzzles, but the constant ads in similar games kept interrupting their fun. I wanted to offer them a calmer place to play, admire beautiful artwork, and make progress at their own pace.\n\nThat idea became Fragments of Dawn: a small personal project, made with care and without ads. Thank you for being part of this first adventure.",
+	"closing": "May every piece bring a little wonder to your day.",
+	"creator": "Created by [b]flavw[/b]",
+	"disclosure_title": "AI-Use Disclosure",
+	"disclosure": "This game contains AI-generated or AI-assisted graphics, animation, audio, text, and code. These materials have been selected, edited, refined, integrated, and tested by the developer as part of the finished game."
+  },
+  "pt": {
+	"title": "Sobre o jogo",
+	"subtitle": "Um pequeno começo. Uma viagem por muitos mundos.",
+	"story_title": "Aurora e os fragmentos perdidos",
+	"story": "Certa manhã, Aurora encontrou um cristal que refletia lugares que ela nunca havia visitado. Ao tocá-lo, sua luz se espalhou em fragmentos, abrindo caminhos entre mundos. Cada fragmento guardava uma cena, uma lembrança e a promessa de uma nova amizade.\n\nAurora partiu para reuni-los. Entre jardins tranquilos, castelos encantados, praias ensolaradas e noites de luar, ela conhece pessoas que a acolhem em seus mundos. Algumas compartilham um doce; outras a convidam para uma aventura. Peça por peça, ela descobre que o maior tesouro são as amizades que faz pelo caminho.",
+	"developer_title": "Feito com carinho",
+	"developer": "Este é o primeiro jogo de celular que criei, com assistência da IA. Tudo começou com meus familiares: eles gostam de puzzles, mas as propagandas constantes de jogos semelhantes interrompiam a diversão. Eu queria oferecer um lugar mais tranquilo para jogar, apreciar belas artes e avançar no próprio ritmo.\n\nEssa ideia se tornou Fragmentos de Aurora: um pequeno projeto pessoal, feito com carinho e sem propagandas. Obrigado por fazer parte desta primeira aventura.",
+	"closing": "Que cada peça traga um pouco de encanto ao seu dia.",
+	"creator": "Criado por [b]flavw[/b]",
+	"disclosure_title": "Declaração de Uso de IA",
+	"disclosure": "Este jogo contém gráficos, animações, áudio, textos e código gerados por IA ou criados com sua assistência. Esses materiais foram selecionados, editados, refinados, integrados e testados pelo desenvolvedor como parte do jogo final."
+  },
+  "es": {
+	"title": "Acerca del juego",
+	"subtitle": "Un pequeño comienzo. Un viaje por muchos mundos.",
+	"story_title": "Alba y los fragmentos perdidos",
+	"story": "Una mañana, Alba encontró un cristal que reflejaba lugares que nunca había visitado. Al tocarlo, su luz se dispersó en fragmentos y abrió caminos entre mundos. Cada fragmento guardaba una escena, un recuerdo y la promesa de una nueva amistad.\n\nAlba emprendió un viaje para reunirlos. Entre jardines tranquilos, castillos encantados, playas soleadas y noches de luna, conoce a personas que la reciben en sus mundos. Algunas comparten un dulce; otras la invitan a una aventura. Pieza a pieza, descubre que su mayor tesoro son las amistades que hace por el camino.",
+	"developer_title": "Hecho con cariño",
+	"developer": "Este es el primer juego para móviles que he creado, con ayuda de la IA. Todo empezó con mi familia: les gustan los puzzles, pero los anuncios constantes de juegos similares interrumpían la diversión. Quería ofrecerles un lugar más tranquilo para jugar, disfrutar de bellas ilustraciones y avanzar a su propio ritmo.\n\nEsa idea se convirtió en Fragmentos del Alba: un pequeño proyecto personal, hecho con cariño y sin anuncios. Gracias por formar parte de esta primera aventura.",
+	"closing": "Que cada pieza aporte un poco de encanto a tu día.",
+	"creator": "Creado por [b]flavw[/b]",
+	"disclosure_title": "Declaración de Uso de IA",
+	"disclosure": "Este juego contiene gráficos, animaciones, audio, textos y código generados por IA o creados con su ayuda. Estos materiales han sido seleccionados, editados, refinados, integrados y probados por el desarrollador como parte del juego final."
+  }
+}

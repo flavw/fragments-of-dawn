@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<defs><linearGradient id="ruby" x1="0" y1="0" x2="0.8" y2="1"><stop stop-color="#ff8e98"/><stop offset="0.45" stop-color="#e94b66"/><stop offset="1" stop-color="#932342"/></linearGradient><linearGradient id="gold" x2="1" y2="1"><stop stop-color="#fff3c9"/><stop offset="0.5" stop-color="#ddb268"/><stop offset="1" stop-color="#a37335"/></linearGradient></defs>
+<path d="M32 55C26 49 6 36 6 22C6 7 25 5 32 18C39 5 58 7 58 22C58 36 38 49 32 55Z" fill="url(#ruby)" stroke="url(#gold)" stroke-width="3"/>
+<path d="M13 22C13 15 21 13 25 18" fill="none" stroke="#ffd2d7" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+<path d="M32 47L35 50L32 54L29 50Z" fill="#ffe6a7"/>
+</svg>
